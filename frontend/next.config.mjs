@@ -1,11 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
+  reactStrictMode: true,
+  swcMinify: true,
   images: {
     domains: ['localhost'],
-  },
-};
+  }
+  // Supprimez complètement cette ligne obsolète :
+  // experimental: { appDir: true }
+}
 
-export default nextConfig;
+export default nextConfig

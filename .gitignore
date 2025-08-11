@@ -1,0 +1,29 @@
+﻿# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Production builds
+/build
+/.next/
+/out/
+
+# Environment variables
+.env*.local
+.env
+
+# Database
+backend/prisma/cbtc.db
+*.db
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

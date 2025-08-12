@@ -15,7 +15,7 @@
             </p>
           </div>
 
-          <form className="space-y-6">
+          <form className="space-y-6" autoComplete="on">
             <div>
               <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
                 Adresse Email
@@ -24,6 +24,7 @@
                 type="email"
                 id="email"
                 name="email"
+                autoComplete="email" // ← AMÉLIORATION UX AJOUTÉE
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
                 placeholder="votre@email.com"
                 required
@@ -38,6 +39,7 @@
                 type="password"
                 id="password"
                 name="password"
+                autoComplete="current-password" // ← AMÉLIORATION UX AJOUTÉE
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
                 placeholder="••••••••"
                 required

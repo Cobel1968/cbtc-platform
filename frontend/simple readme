@@ -1,0 +1,2 @@
+git commit -m "chore: trigger redeploy after VITE_API_URL update" --allow-empty
+git push origin main

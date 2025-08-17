@@ -2,19 +2,18 @@ import { NextResponse } from 'next/server';
 
 export async function POST(req: Request) {
   try {
-    const body = await req.json().catch(() => ({}));
-    const { email, password, firstName } = body || {};
+    const { email, password, firstName } = await req.json();
     
     if (!email || !password) {
       return NextResponse.json(
-        { error: 'Email et mot de passe requis pour rejoindre l\'excellence CBTC' }, 
+        { error: 'Email et mot de passe requis pour rejoindre CBTC' }, 
         { status: 400 }
       );
     }
     
     if (password.length < 6) {
       return NextResponse.json(
-        { error: 'Mot de passe trop court - l\'excellence requiert au moins 6 caractères' }, 
+        { error: 'L\'excellence requiert un mot de passe d\'au moins 6 caractères' }, 
         { status: 400 }
       );
     }
@@ -23,7 +22,7 @@ export async function POST(req: Request) {
     
     return NextResponse.json({ 
       success: true, 
-      message: `🎉 Bienvenue ${firstName || 'futur entrepreneur'} ! Votre compte CBTC est créé.`,
+      message: `🎉 Bienvenue ${firstName || 'futur entrepreneur'} ! Compte CBTC créé avec succès.`,
       user: { email, role: 'student', name: firstName || email.split('@')[0] }
     });
     

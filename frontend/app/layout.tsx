@@ -14,9 +14,9 @@ export const metadata: Metadata = {
     description: "Plateforme d'apprentissage pour entrepreneurs visionnaires",
     url: 'https://app.cobelbtc.com',
     siteName: 'CBTC',
-    images: ['/logo-cbtc-social.png'],
+    images: ['/logo-cbtc.svg'],
     locale: 'fr_FR',
-    type: 'website'
+    type: 'website',
   },
   icons: {
     icon: [
@@ -34,14 +34,13 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <head>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="icon" type="image/svg+xml" href="/logo-cbtc.svg" />
+        <link rel="icon" href="/logo-cbtc.svg" type="image/svg+xml" />
         <meta name="theme-color" content="#0b3d91" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
       <body className={`${inter.className} min-h-screen bg-white text-gray-900 antialiased`}>
         <Header />
-        <main id="main" className="min-h-[calc(100vh-4rem)]">
+        <main className="min-h-[calc(100vh-4rem)]">
           {children}
         </main>
       </body>

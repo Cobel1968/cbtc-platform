@@ -2,8 +2,7 @@ import { NextResponse } from 'next/server';
 
 export async function POST(req: Request) {
   try {
-    const body = await req.json().catch(() => ({}));
-    const { email, password } = body || {};
+    const { email, password } = await req.json();
     
     if (!email || !password) {
       return NextResponse.json(
@@ -19,14 +18,9 @@ export async function POST(req: Request) {
     
     return NextResponse.json({ 
       success: true, 
-      message: '🚀 Connexion réussie ! Redirection en cours...',
-      token: 'cbtc-demo-jwt-' + Date.now(),
-      user: { 
-        email, 
-        role,
-        name: email.split('@')[0],
-        lastLogin: new Date().toISOString()
-      }
+      message: '🚀 Connexion CBTC réussie ! Redirection...',
+      user: { email, role, name: email.split('@')[0] },
+      token: 'cbtc-demo-' + Date.now()
     });
     
   } catch (error) {

@@ -1,4 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="160" height="40" viewBox="0 0 160 40">
-  <rect rx="8" width="160" height="40" fill="#0ea5e9"/>
-  <text x="20" y="26" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="white">CBTC</text>
-</svg>
+export default function LoginPage() {
+  return (
+    <main className="container mx-auto px-4 py-10">
+      <h1 className="text-3xl font-bold mb-4">Connexion</h1>
+      <p className="text-gray-600">
+        L’espace membre arrive bientôt. En attendant, explorez nos formations.
+      </p>
+    </main>
+  );
+}

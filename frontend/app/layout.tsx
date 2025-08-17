@@ -1,22 +1,22 @@
-import './globals.css'
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+// frontend/components/Header.jsx
+import Image from 'next/image'
+import Link from 'next/link'
 
-const inter = Inter({ subsets: ['latin'] })
-
-export const metadata: Metadata = {
-  title: 'CBTC - Excellence Entrepreneuriale',
-  description: 'Plateforme d\'apprentissage pour entrepreneurs visionnaires',
-}
-
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function Header() {
   return (
-    <html lang="fr">
-      <body className={inter.className}>{children}</body>
-    </html>
+    <header className="bg-white border-b">
+      <div className="max-w-7xl mx-auto px-4 flex items-center h-16">
+        <Link href="/" aria-label="CBTC - Accueil" className="flex items-center">
+          <Image src="/logo-cbtc.svg" alt="CBTC Logo" width={180} height={60} priority />
+        </Link>
+        <nav className="ml-auto flex items-center gap-6">
+          <Link href="/register">Inscription</Link>
+          <Link href="/login">Connexion</Link>
+          <Link href="/courses">Formations</Link>
+          <Link href="/admin">Admin</Link>
+        </nav>
+      </div>
+    </header>
   )
 }
+

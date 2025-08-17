@@ -16,14 +16,13 @@ export const metadata: Metadata = {
     siteName: 'CBTC',
     images: ['/logo-cbtc-social.png'],
     locale: 'fr_FR',
-    type: 'website',
+    type: 'website'
   },
   icons: {
     icon: [
       { url: '/favicon.ico' },
       { url: '/logo-cbtc.svg', type: 'image/svg+xml' }
     ],
-    apple: [{ url: '/logo-cbtc.png' }], // optionnel, à ajouter dans public si souhaité
   }
 }
 
@@ -37,7 +36,6 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.ico" />
         <link rel="icon" type="image/svg+xml" href="/logo-cbtc.svg" />
-        <link rel="apple-touch-icon" href="/logo-cbtc.png" />
         <meta name="theme-color" content="#0b3d91" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
@@ -46,14 +44,6 @@ export default function RootLayout({
         <main id="main" className="min-h-[calc(100vh-4rem)]">
           {children}
         </main>
-        {/*
-        <footer className="bg-gray-900 text-white py-8 mt-16">
-          <div className="max-w-7xl mx-auto px-4 text-center">
-            <p>&copy; 2025 CBTC - Cobel Business Training Center. Tous droits réservés.</p>
-            <p className="text-gray-400 mt-2">Excellence entrepreneuriale par Abel Coulibaly</p>
-          </div>
-        </footer>
-        */}
       </body>
     </html>
   )

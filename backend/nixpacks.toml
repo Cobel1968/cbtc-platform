@@ -1,0 +1,14 @@
+[variables]
+NODE_ENV = "production"
+
+[phases.setup]
+nixPkgs = ["nodejs_18", "npm"]
+
+[phases.install]
+cmds = ["npm ci --only=production", "npm install prisma --save-dev"]
+
+[phases.build]
+cmds = ["npx prisma generate"]
+
+[start]
+cmd = "npx prisma migrate deploy && node server.js"

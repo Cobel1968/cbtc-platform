@@ -1,150 +1,129 @@
 import { Router } from 'express';
-import { prisma } from '../prisma.js';
-import { requireAuth, requireAdmin } from '../middleware/auth.js';
-import { z } from 'zod';
-import slugify from 'slugify';
+import type { Request, Response } from 'express';
+import { PrismaClient } from '@prisma/client';
 
 const router = Router();
+const prisma = new PrismaClient();
 
-router.get('/', async (req, res) => {
+// GET /api/programs - Liste des programmes CBTC (CORRIGÉ)
+router.get('/', async (req: Request, res: Response) => {
   try {
-    const { status } = req.query;
-    const whereClause = status === 'all' ? {} : { status: 'PUBLISHED' };
-
     const programs = await prisma.program.findMany({
-      where: whereClause,
-      select: {
-        id: true,
-        slug: true,
-        title: true,
-        shortDescription: true,
-        description: true,
-        imageUrl: true,
-        price: true,
-        currency: true,
-        duration: true,
-        level: true,
-        category: true,
-        status: true,
-        instructor: {
+      where: { published: true },
+      include: {
+        author: {
           select: {
+            id: true,
             name: true,
-            profile: {
-              select: { title: true, avatarUrl: true }
+            profilePicture: true,
+            role: true
+          }
+        },
+        categories: {
+          include: {
+            category: {
+              select: {
+                id: true,
+                name: true,
+                slug: true,
+                color: true,
+                icon: true
+              }
             }
           }
         },
-        _count: {
-          select: { enrollments: true }
+        lessons: {
+          where: { isPublished: true },
+          select: {
+            id: true,
+            title: true,
+            duration: true,
+            order: true
+          },
+          orderBy: { order: 'asc' }
         },
-        createdAt: true
+        _count: {
+          select: {
+            enrollments: true,
+            lessons: true,
+            caseStudies: true
+          }
+        }
       },
       orderBy: { createdAt: 'desc' }
     });
-    res.json(programs);
+
+    res.json({
+      status: 'success',
+      data: {
+        programs,
+        total: programs.length
+      },
+      message: `${programs.length} programmes d'excellence CBTC trouvés`
+    });
   } catch (error) {
-    console.error('Error fetching programs:', error);
-    res.status(500).json({ error: 'Erreur lors de la récupération des programmes' });
+    console.error('Erreur programmes:', error);
+    res.status(500).json({
+      status: 'error',
+      message: 'Erreur lors de la récupération des programmes',
+      error: error instanceof Error ? error.message : 'Unknown error'
+    });
   }
 });
 
-const createProgramSchema = z.object({
-  title: z.string().min(1).max(200),
-  description: z.string().min(1),
-  shortDescription: z.string().max(500).optional(),
-  imageUrl: z.string().url().optional(),
-  price: z.number().min(0).default(0),
-  currency: z.string().default('EUR'),
-  duration: z.number().positive().optional(),
-  level: z.enum(['beginner', 'intermediate', 'advanced']).optional(),
-  category: z.string().optional(),
-  status: z.enum(['DRAFT', 'PUBLISHED']).default('DRAFT')
-});
-
-router.post('/', requireAuth, requireAdmin, async (req, res) => {
+// GET /api/programs/:slug - Programme spécifique
+router.get('/:slug', async (req: Request, res: Response) => {
   try {
-    const validation = createProgramSchema.safeParse(req.body);
-    if (!validation.success) {
-      return res.status(400).json({ 
-        error: 'Données invalides', 
-        details: validation.error.flatten() 
+    const { slug } = req.params;
+
+    const program = await prisma.program.findUnique({
+      where: { slug },
+      include: {
+        author: {
+          select: {
+            id: true,
+            name: true,
+            profilePicture: true,
+            bio: true,
+            role: true
+          }
+        },
+        categories: {
+          include: {
+            category: true
+          }
+        },
+        lessons: {
+          where: { isPublished: true },
+          orderBy: { order: 'asc' }
+        },
+        caseStudies: true,
+        _count: {
+          select: {
+            enrollments: true,
+            lessons: true
+          }
+        }
+      }
+    });
+
+    if (!program) {
+      return res.status(404).json({
+        status: 'error',
+        message: 'Programme non trouvé'
       });
     }
 
-    const data = validation.data;
-    let slug = slugify(data.title, { lower: true, strict: true });
-    
-    let counter = 1;
-    let originalSlug = slug;
-    while (await prisma.program.findUnique({ where: { slug } })) {
-      slug = `${originalSlug}-${counter}`;
-      counter++;
-    }
-
-    const program = await prisma.program.create({
-      data: {
-        ...data,
-        slug,
-        instructorId: req.user!.id
-      },
-      include: {
-        instructor: {
-          select: { name: true }
-        }
-      }
-    });
-
-    res.status(201).json(program);
-  } catch (error) {
-    console.error('Error creating program:', error);
-    res.status(500).json({ error: 'Erreur lors de la création du programme' });
-  }
-});
-
-router.post('/:id/enroll', requireAuth, async (req, res) => {
-  try {
-    const program = await prisma.program.findUnique({
-      where: { id: req.params.id },
-      select: { id: true, title: true, status: true }
-    });
-
-    if (!program || program.status !== 'PUBLISHED') {
-      return res.status(404).json({ error: 'Programme non trouvé ou non disponible' });
-    }
-
-    const existingEnrollment = await prisma.enrollment.findUnique({
-      where: {
-        userId_programId: {
-          userId: req.user!.id,
-          programId: req.params.id
-        }
-      }
-    });
-
-    if (existingEnrollment) {
-      return res.status(409).json({ error: 'Déjà inscrit à ce programme' });
-    }
-
-    const enrollment = await prisma.enrollment.create({
-      data: {
-        userId: req.user!.id,
-        programId: req.params.id,
-        status: 'ACTIVE'
-      },
-      include: {
-        program: {
-          select: { title: true }
-        }
-      }
-    });
-
-    res.status(201).json({
-      message: `Inscription réussie au programme "${enrollment.program.title}"`,
-      enrollment
+    res.json({
+      status: 'success',
+      data: { program }
     });
   } catch (error) {
-    console.error('Error enrolling user:', error);
-    res.status(500).json({ error: 'Erreur lors de l\'inscription' });
+    res.status(500).json({
+      status: 'error',
+      message: 'Erreur lors de la récupération du programme',
+      error: error instanceof Error ? error.message : 'Unknown error'
+    });
   }
 });
 

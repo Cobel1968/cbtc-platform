@@ -1,0 +1,562 @@
+[2025-08-22 02:58:23.370] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\simple readme:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.407] [global] [info] [cache.cc:974] [monitor] [hadolint:lint:frontend_clean\Dockerfile:HEAD] running linter (cache-key:105ef01dbd98365ee1334e421bab3ab1)
+[2025-08-22 02:58:23.371] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\postcss.config.js:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.474] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\tailwind.config.js:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.475] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\public\logo-cbtc.svg:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.476] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\backend\src\middleware\auth.ts:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.477] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\tsconfig.json:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.480] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\setup_cbtc.sh:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.483] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\backend\src\prisma.ts:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.484] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:python:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.484] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\tailwind.config.js:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.485] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\backend\src\routes\auth.ts:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.486] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\tsconfig.json:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.487] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\backend\src\routes\content.ts:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.487] [global] [info] [cache.cc:974] [monitor] [hadolint:lint:frontend_clean\backend\Dockerfile:HEAD] running linter (cache-key:07fc1f100899a2daf81980805d045a15)
+[2025-08-22 02:58:23.487] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\vercel.json:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.488] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\backend\src\routes\programs.ts:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.488] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\.env.example:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.489] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\backend\src\routes\users.ts:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.490] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\.gitignore:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.491] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\backend\tsconfig.json:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.492] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\.gitignore.backup.20250818-010710:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.493] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\backend\validate_platform.js:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.493] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\.gitmessage.txt:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.494] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\components\Header.jsx:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.496] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\Dockerfile:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.498] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\components\Logo.tsx:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.500] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\My Powershell Profile:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.500] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\components\header.tsx:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.501] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\app\admin\page.tsx:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.502] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\docker-compose.yml:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.504] [global] [info] [cache.cc:974] [monitor] [hadolint:lint:frontend_clean\frontend\Dockerfile:HEAD] running linter (cache-key:69a2f9718d28329129a17194618440a1)
+[2025-08-22 02:58:23.504] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\docker-compose.yml.backup:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.504] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\frontend\Dockerfile:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.506] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\frontend\app\admin\page.tsx:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.507] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\frontend\app\api\auth\login\route.ts:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.509] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\frontend\app\api\auth\register\route.ts:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.510] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\frontend\app\api\courses\[id]\route.ts:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.512] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\frontend\app\api\courses\route.ts:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.515] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\frontend\app\api\test\route.ts:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.518] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\frontend\app\courses\[id]\page.tsx:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.518] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\frontend\app\courses\page.tsx:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.519] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\frontend\app\globals.css:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.520] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\frontend\app\icon.svg:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.521] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\frontend\app\layout.tsx:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.523] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\frontend\app\login\page.tsx:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.524] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\frontend\app\page.tsx:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.525] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\frontend\app\register\page.tsx:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.526] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\frontend\components\Header.jsx:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.526] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\frontend\components\Logo.tsx:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.529] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\frontend\components\header.tsx:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.533] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\frontend\lib\api.ts:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.534] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\frontend\lib\config.ts:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.535] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\frontend\new commit:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.536] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\frontend\next.config.mjs:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.538] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\frontend\package-lock.json:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.541] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\frontend\package.json:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.541] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\frontend\postcss.config.js:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.542] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend_clean\frontend\public\logo-cbtc.svg:HEAD] already cached, not running linter
+[2025-08-22 02:58:23.570] [global] [info] [release.cc:131] Retrieved 16 linter-version pairs from ReleaseVersionService
+[2025-08-22 02:58:23.575] [global] [warning] [release.cc:44] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2025-08-22 02:58:23.577] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:The system cannot find the path specified.
+[2025-08-22 02:58:23.577] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:The system cannot find the path specified.
+[2025-08-22 02:58:23.577] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:The system cannot find the path specified.
+[2025-08-22 02:58:23.577] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:The system cannot find the path specified.
+[2025-08-22 02:58:23.577] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:The system cannot find the path specified.
+[2025-08-22 02:58:23.577] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:The system cannot find the path specified.
+[2025-08-22 02:58:24.118] [global] [info] [release.cc:131] Retrieved 16 linter-version pairs from ReleaseVersionService
+[2025-08-22 02:58:24.120] [global] [warning] [release.cc:44] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
+[2025-08-22 02:58:24.121] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:The system cannot find the path specified.
+[2025-08-22 02:58:24.121] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:The system cannot find the path specified.
+[2025-08-22 02:58:24.121] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:The system cannot find the path specified.
+[2025-08-22 02:58:24.121] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:The system cannot find the path specified.
+[2025-08-22 02:58:24.121] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:The system cannot find the path specified.
+[2025-08-22 02:58:24.121] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:The system cannot find the path specified.
+[2025-08-22 02:58:25.752] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.25.0 version: prod
+[2025-08-22 02:58:28.871] [global] [info] [linter.cc:1791] Found config in plugin repo at C:\Users\SURFACE\AppData\Local\trunk\plugins\https---github-com-trunk-io-plugins\v1.7.2-4ebadccd80b22638\linters\ruff\ruff.toml
+[2025-08-22 02:58:29.946] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:The system cannot find the path specified.
+[2025-08-22 02:58:29.946] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:The system cannot find the path specified.
+[2025-08-22 02:58:29.946] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:The system cannot find the path specified.
+[2025-08-22 02:58:30.007] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:The system cannot find the path specified.
+[2025-08-22 02:58:30.007] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:The system cannot find the path specified.
+[2025-08-22 02:58:30.007] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:The system cannot find the path specified.
+[2025-08-22 02:58:30.635] [global] [info] [linter.cc:1791] Found config in plugin repo at C:\Users\SURFACE\AppData\Local\trunk\plugins\https---github-com-trunk-io-plugins\v1.7.2-4ebadccd80b22638\linters\isort\.isort.cfg
+[2025-08-22 02:58:30.710] [global] [info] [linter.cc:1791] Found config in plugin repo at C:\Users\SURFACE\AppData\Local\trunk\plugins\https---github-com-trunk-io-plugins\v1.7.2-4ebadccd80b22638\linters\isort\.isort.cfg
+[2025-08-22 02:58:32.363] [global] [info] [linter.cc:1791] Found config in plugin repo at C:\Users\SURFACE\AppData\Local\trunk\plugins\https---github-com-trunk-io-plugins\v1.7.2-4ebadccd80b22638\linters\yamllint\.yamllint.yaml
+[2025-08-22 02:58:33.392] [global] [info] [linter.cc:1791] Found config in plugin repo at C:\Users\SURFACE\AppData\Local\trunk\plugins\https---github-com-trunk-io-plugins\v1.7.2-4ebadccd80b22638\linters\yamllint\.yamllint.yaml
+[2025-08-22 02:58:33.828] [global] [info] [linter.cc:1791] Found config in plugin repo at C:\Users\SURFACE\AppData\Local\trunk\plugins\https---github-com-trunk-io-plugins\v1.7.2-4ebadccd80b22638\linters\markdownlint\.markdownlint.yaml
+[2025-08-22 02:58:34.658] [global] [info] [linter.cc:1791] Found config in plugin repo at C:\Users\SURFACE\AppData\Local\trunk\plugins\https---github-com-trunk-io-plugins\v1.7.2-4ebadccd80b22638\linters\markdownlint\.markdownlint.yaml
+[2025-08-22 02:58:35.416] [global] [info] [grpc.cc:26] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2025-08-22 02:58:40.926] [global] [info] [notification_manager.cc:37] Writing to C:\Users\SURFACE\cbtc_ecosystem\cbtc-platform\.trunk\notifications\trunk-upgrade.yaml
+[2025-08-22 02:59:26.796] [global] [info] [grpc.cc:26] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2025-08-22 02:59:29.304] [global] [info] [notification_manager.cc:37] Writing to C:\Users\SURFACE\cbtc_ecosystem\cbtc-platform\.trunk\notifications\trunk-upgrade.yaml
+[2025-08-22 02:59:46.824] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 02:59:46.824] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 02:59:48.891] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 02:59:48.891] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 02:59:50.464] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 02:59:50.464] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 02:59:50.467] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.bat // 3:The system cannot find the path specified.
+[2025-08-22 02:59:50.468] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go // 3:The system cannot find the path specified.
+[2025-08-22 02:59:50.468] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.exe // 3:The system cannot find the path specified.
+[2025-08-22 02:59:50.473] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.bat // 3:The system cannot find the path specified.
+[2025-08-22 02:59:50.474] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go // 3:The system cannot find the path specified.
+[2025-08-22 02:59:50.474] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.exe // 3:The system cannot find the path specified.
+[2025-08-22 02:59:50.479] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.bat // 3:The system cannot find the path specified.
+[2025-08-22 02:59:50.479] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go // 3:The system cannot find the path specified.
+[2025-08-22 02:59:50.479] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.exe // 3:The system cannot find the path specified.
+[2025-08-22 02:59:50.487] [global] [info] [cache.cc:974] [monitor] [hadolint:lint:frontend\Dockerfile:HEAD] running linter (cache-key:98cdcf4744c312bee1b678de5d517b6f)
+[2025-08-22 02:59:50.518] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\.env.example:HEAD], removing from cache
+[2025-08-22 02:59:50.519] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\.env.example:HEAD] running linter (cache-key:ae5cf28c9232d65a8c5e2f50b31c38c5)
+[2025-08-22 02:59:50.520] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\.gitignore:HEAD], removing from cache
+[2025-08-22 02:59:50.520] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\.gitignore:HEAD] running linter (cache-key:23a4e5a73d86409b674e27ae84057f55)
+[2025-08-22 02:59:50.521] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\.gitignore.backup.20250818-010710:HEAD], removing from cache
+[2025-08-22 02:59:50.522] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\.gitignore.backup.20250818-010710:HEAD] running linter (cache-key:38f786c000fa9ffdd66aeea828c676b1)
+[2025-08-22 02:59:50.523] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\.gitmessage.txt:HEAD], removing from cache
+[2025-08-22 02:59:50.524] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\.gitmessage.txt:HEAD] running linter (cache-key:fd3a17dda98a99cbc1b6c35257eac6bd)
+[2025-08-22 02:59:50.525] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\Dockerfile:HEAD], removing from cache
+[2025-08-22 02:59:50.526] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\Dockerfile:HEAD] running linter (cache-key:af57d075fc64453998cb6c02fc06f8b2)
+[2025-08-22 02:59:50.527] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\My Powershell Profile:HEAD], removing from cache
+[2025-08-22 02:59:50.527] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\My Powershell Profile:HEAD] running linter (cache-key:9c38012600493df0fd1cf7643852a8a3)
+[2025-08-22 02:59:50.528] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\app\globals.css:HEAD], removing from cache
+[2025-08-22 02:59:50.528] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\app\globals.css:HEAD] running linter (cache-key:e0ecdd9ee9c9d4c122e00de76581c050)
+[2025-08-22 02:59:50.529] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\app\login\page.tsx:HEAD], removing from cache
+[2025-08-22 02:59:50.530] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\app\login\page.tsx:HEAD] running linter (cache-key:210db7ef171f986a33032c353d79b2ae)
+[2025-08-22 02:59:50.531] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\app\page.tsx:HEAD], removing from cache
+[2025-08-22 02:59:50.531] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\app\page.tsx:HEAD] running linter (cache-key:02aa64bb829bb186aa110834e98b9954)
+[2025-08-22 02:59:50.532] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\app\register\page.tsx:HEAD], removing from cache
+[2025-08-22 02:59:50.532] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\app\register\page.tsx:HEAD] running linter (cache-key:2823e41afa00fa29c09246a3a8e38bd9)
+[2025-08-22 02:59:50.533] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\backend\.gitignore:HEAD], removing from cache
+[2025-08-22 02:59:50.534] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\backend\.gitignore:HEAD] running linter (cache-key:c49be8fb0adb38d344832bfbc29f036d)
+[2025-08-22 02:59:50.535] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\backend\Dockerfile:HEAD], removing from cache
+[2025-08-22 02:59:50.536] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\backend\Dockerfile:HEAD] running linter (cache-key:390f860b91e0989b8bb237b846dd662a)
+[2025-08-22 02:59:50.539] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\backend\config.ts:HEAD], removing from cache
+[2025-08-22 02:59:50.539] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\backend\config.ts:HEAD] running linter (cache-key:baeac7f6ec912503a6e98f28197d11fa)
+[2025-08-22 02:59:50.540] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\backend\index.js:HEAD], removing from cache
+[2025-08-22 02:59:50.541] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\backend\index.js:HEAD] running linter (cache-key:2131e1496204a24cc696aebec0472f74)
+[2025-08-22 02:59:50.542] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\backend\monitor_performance.js:HEAD], removing from cache
+[2025-08-22 02:59:50.543] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\backend\monitor_performance.js:HEAD] running linter (cache-key:6fc66d748f3822488219b31663b97f55)
+[2025-08-22 02:59:50.544] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\backend\package-lock.json:HEAD], removing from cache
+[2025-08-22 02:59:50.545] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\backend\package-lock.json:HEAD] running linter (cache-key:7909f986c2afdf3a0d200828c9f7c6cb)
+[2025-08-22 02:59:50.546] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\backend\package.json:HEAD], removing from cache
+[2025-08-22 02:59:50.546] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\backend\package.json:HEAD] running linter (cache-key:323913e17498c7cc2ec299af8220166d)
+[2025-08-22 02:59:50.547] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\backend\package.json.backup:HEAD], removing from cache
+[2025-08-22 02:59:50.547] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\backend\package.json.backup:HEAD] running linter (cache-key:29fd2f1bafbed4483c083d8371fadc8f)
+[2025-08-22 02:59:50.548] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\backend\prisma\schema.prisma:HEAD], removing from cache
+[2025-08-22 02:59:50.549] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\backend\prisma\schema.prisma:HEAD] running linter (cache-key:12a11bd6164cbd2579af6299ab18b465)
+[2025-08-22 02:59:50.550] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\backend\prisma\schema.prisma.postgres.backup:HEAD], removing from cache
+[2025-08-22 02:59:50.553] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\frontend\package.json:HEAD], removing from cache
+[2025-08-22 02:59:50.554] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\backend\prisma\schema.prisma.postgres.backup:HEAD] running linter (cache-key:2cffad21fa7e1ec4199a17a1312db09c)
+[2025-08-22 02:59:50.555] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\backend\routes\conflicts.js:HEAD], removing from cache
+[2025-08-22 02:59:50.555] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\backend\routes\conflicts.js:HEAD] running linter (cache-key:fce7d6481820ae7fa658b56a788d89bd)
+[2025-08-22 02:59:50.557] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\backend\schema.prisma:HEAD], removing from cache
+[2025-08-22 02:59:50.558] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\backend\schema.prisma:HEAD] running linter (cache-key:e6fe3ea697e10d9273f47f0c00974eca)
+[2025-08-22 02:59:50.559] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\backend\seed.ts:HEAD], removing from cache
+[2025-08-22 02:59:50.559] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\backend\seed.ts:HEAD] running linter (cache-key:2867f32e3b2b58728abf5e7de93f788b)
+[2025-08-22 02:59:50.560] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\frontend\package.json:HEAD] running linter (cache-key:7e39c558343b5ac901665bd874c6d49a)
+[2025-08-22 02:59:50.561] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\backend\server.js:HEAD], removing from cache
+[2025-08-22 02:59:50.562] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\frontend\postcss.config.js:HEAD], removing from cache
+[2025-08-22 02:59:50.562] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\frontend\postcss.config.js:HEAD] running linter (cache-key:dd2e56cfdd605e494551a26636ff1e94)
+[2025-08-22 02:59:50.563] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\backend\server.js:HEAD] running linter (cache-key:d975faf9a4c54f272833285296409df3)
+[2025-08-22 02:59:50.563] [global] [info] [cache.cc:974] [monitor] [hadolint:lint:frontend\backend\Dockerfile:HEAD] running linter (cache-key:8c37a5e27f6bcde741129bfb22348af5)
+[2025-08-22 02:59:50.564] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\frontend\public\logo-cbtc.svg:HEAD], removing from cache
+[2025-08-22 02:59:50.565] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\backend\src\config.ts:HEAD], removing from cache
+[2025-08-22 02:59:50.565] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\frontend\public\logo-cbtc.svg:HEAD] running linter (cache-key:652f11d973c30dd52fecd528859c35e3)
+[2025-08-22 02:59:50.566] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\backend\src\config.ts:HEAD] running linter (cache-key:56a5eb4520b32f699c40dbd749a1ed79)
+[2025-08-22 02:59:50.568] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\backend\src\dev.ts:HEAD], removing from cache
+[2025-08-22 02:59:50.572] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\frontend\simple readme:HEAD], removing from cache
+[2025-08-22 02:59:50.572] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\backend\src\dev.ts:HEAD] running linter (cache-key:9560bde99fbc53a3c90c1444eb7be4ef)
+[2025-08-22 02:59:50.573] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\backend\src\index.ts:HEAD], removing from cache
+[2025-08-22 02:59:50.574] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\backend\src\index.ts:HEAD] running linter (cache-key:248381f3bfbe3e241aced571ef2f211c)
+[2025-08-22 02:59:50.576] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\backend\src\middleware\auth.ts:HEAD], removing from cache
+[2025-08-22 02:59:50.578] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\backend\src\middleware\auth.ts:HEAD] running linter (cache-key:9492f23aaf95ac0e5b9477e461e4a9a0)
+[2025-08-22 02:59:50.580] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\backend\src\prisma.ts:HEAD], removing from cache
+[2025-08-22 02:59:50.580] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\backend\src\prisma.ts:HEAD] running linter (cache-key:544d8d81669c33e2eea5202e6cbecf43)
+[2025-08-22 02:59:50.581] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\backend\src\routes\auth.ts:HEAD], removing from cache
+[2025-08-22 02:59:50.582] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\backend\src\routes\auth.ts:HEAD] running linter (cache-key:4964126303597083e7cdb7d3a950d890)
+[2025-08-22 02:59:50.583] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\backend\src\routes\content.ts:HEAD], removing from cache
+[2025-08-22 02:59:50.584] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\frontend\simple readme:HEAD] running linter (cache-key:c5e18f40e8e9c6b366d116ed2d86e294)
+[2025-08-22 02:59:50.584] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\backend\src\routes\content.ts:HEAD] running linter (cache-key:429b41cedc31bf2e123425450a2b20bb)
+[2025-08-22 02:59:50.587] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\frontend\tailwind.config.js:HEAD], removing from cache
+[2025-08-22 02:59:50.589] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\backend\src\routes\programs.ts:HEAD], removing from cache
+[2025-08-22 02:59:50.589] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\backend\src\routes\programs.ts:HEAD] running linter (cache-key:c56365d3e2fba24a2f5ee36324e28de5)
+[2025-08-22 02:59:50.591] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\backend\src\routes\users.ts:HEAD], removing from cache
+[2025-08-22 02:59:50.591] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\backend\src\routes\users.ts:HEAD] running linter (cache-key:4bc2c88dbb7941546f121754151238ad)
+[2025-08-22 02:59:50.592] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\backend\tsconfig.json:HEAD], removing from cache
+[2025-08-22 02:59:50.593] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\frontend\tailwind.config.js:HEAD] running linter (cache-key:1f335ab3b34b4cff9011139d69432674)
+[2025-08-22 02:59:50.593] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\backend\tsconfig.json:HEAD] running linter (cache-key:1bac0bd19c0f7f743438b74cb5deeac4)
+[2025-08-22 02:59:50.594] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\backend\validate_platform.js:HEAD], removing from cache
+[2025-08-22 02:59:50.595] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\backend\validate_platform.js:HEAD] running linter (cache-key:da75a8d8b2c0984675fec93de5006bb1)
+[2025-08-22 02:59:50.596] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\components\Logo.tsx:HEAD], removing from cache
+[2025-08-22 02:59:50.597] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\frontend\tsconfig.json:HEAD], removing from cache
+[2025-08-22 02:59:50.597] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\components\Logo.tsx:HEAD] running linter (cache-key:e88b4f2f90ca4fad12ade11505b414dd)
+[2025-08-22 02:59:50.598] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\frontend\tsconfig.json:HEAD] running linter (cache-key:78c632c2068f465651711ddf83f16f3c)
+[2025-08-22 02:59:50.599] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\docker-compose.yml:HEAD], removing from cache
+[2025-08-22 02:59:50.599] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\docker-compose.yml:HEAD] running linter (cache-key:9bbdc466d0d0eb15ba5c07aa03f8df2e)
+[2025-08-22 02:59:50.600] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\get-docker.sh:HEAD], removing from cache
+[2025-08-22 02:59:50.602] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\docker-compose.yml.backup:HEAD], removing from cache
+[2025-08-22 02:59:50.602] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\docker-compose.yml.backup:HEAD] running linter (cache-key:b2c0b9aa5484a080e8310bd82d33bed5)
+[2025-08-22 02:59:50.604] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\env.example:HEAD] already cached, not running linter
+[2025-08-22 02:59:50.604] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\get-docker.sh:HEAD] running linter (cache-key:16ae32048d26533f250405e241ae5326)
+[2025-08-22 02:59:50.605] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\env.local.example:HEAD] already cached, not running linter
+[2025-08-22 02:59:50.607] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\frontend\Dockerfile:HEAD], removing from cache
+[2025-08-22 02:59:50.607] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\frontend\Dockerfile:HEAD] running linter (cache-key:9902c35fe44feee80d372a5d8fddd598)
+[2025-08-22 02:59:50.609] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\frontend\Next.js:HEAD], removing from cache
+[2025-08-22 02:59:50.609] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\frontend\Next.js:HEAD] running linter (cache-key:6dbb9799a56f1ba733b350d062787307)
+[2025-08-22 02:59:50.610] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\frontend\app\admin\page.tsx:HEAD], removing from cache
+[2025-08-22 02:59:50.611] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\git-filter-repo.txt:HEAD], removing from cache
+[2025-08-22 02:59:50.612] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\frontend\app\admin\page.tsx:HEAD] running linter (cache-key:5c3b268fc62bf3739fc3c79cd9fdec38)
+[2025-08-22 02:59:50.613] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\frontend\app\api\auth\login\route.ts:HEAD], removing from cache
+[2025-08-22 02:59:50.613] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\git-filter-repo.txt:HEAD] running linter (cache-key:cb35bdf56f6ec3a4d4189b920033e11f)
+[2025-08-22 02:59:50.614] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\frontend\app\api\auth\login\route.ts:HEAD] running linter (cache-key:50c022a5055a91ee4f8affe2042eaa7f)
+[2025-08-22 02:59:50.616] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\lib\api.ts:HEAD] already cached, not running linter
+[2025-08-22 02:59:50.616] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\frontend\app\api\auth\register\route.ts:HEAD], removing from cache
+[2025-08-22 02:59:50.618] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\next.config.mjs:HEAD], removing from cache
+[2025-08-22 02:59:50.619] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\frontend\app\api\auth\register\route.ts:HEAD] running linter (cache-key:c59d411cebee898b004b8d2a8a6859b7)
+[2025-08-22 02:59:50.619] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\next.config.mjs:HEAD] running linter (cache-key:86bb9a73f52cf0887f705d299b6b0bab)
+[2025-08-22 02:59:50.620] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\frontend\app\api\courses\[id]\route.ts:HEAD], removing from cache
+[2025-08-22 02:59:50.621] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\package-lock.json:HEAD], removing from cache
+[2025-08-22 02:59:50.622] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\frontend\app\api\courses\[id]\route.ts:HEAD] running linter (cache-key:9d505c930e976d95ace84d5653dfb134)
+[2025-08-22 02:59:50.623] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\frontend\app\api\courses\route.ts:HEAD], removing from cache
+[2025-08-22 02:59:50.624] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\frontend\app\api\courses\route.ts:HEAD] running linter (cache-key:f6ddd656d2f72cfad848e123bf05d2a5)
+[2025-08-22 02:59:50.625] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\frontend\app\api\test\route.ts:HEAD], removing from cache
+[2025-08-22 02:59:50.626] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\package-lock.json:HEAD] running linter (cache-key:b4c87a4241f5538f9b4fa18acd203298)
+[2025-08-22 02:59:50.626] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\frontend\app\api\test\route.ts:HEAD] running linter (cache-key:28d9a68ef643bb2f0f6ff79fcea618f3)
+[2025-08-22 02:59:50.627] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\package.json:HEAD], removing from cache
+[2025-08-22 02:59:50.628] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\frontend\app\courses\[id]\page.tsx:HEAD], removing from cache
+[2025-08-22 02:59:50.630] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\package.json:HEAD] running linter (cache-key:c0597672104b590d7c5f430447ef8420)
+[2025-08-22 02:59:50.630] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\frontend\app\courses\[id]\page.tsx:HEAD] running linter (cache-key:567c2e10bcea8ae355105a1b0af307e4)
+[2025-08-22 02:59:50.631] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\pages\login.jsx:HEAD], removing from cache
+[2025-08-22 02:59:50.632] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\frontend\app\courses\page.tsx:HEAD], removing from cache
+[2025-08-22 02:59:50.633] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\pages\login.jsx:HEAD] running linter (cache-key:eb86b60bcdb099fae0bb38bb7a937240)
+[2025-08-22 02:59:50.638] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\pages\register.jsx:HEAD], removing from cache
+[2025-08-22 02:59:50.640] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\pages\register.jsx:HEAD] running linter (cache-key:f3dbec1de420e8cfe070c01422274970)
+[2025-08-22 02:59:50.640] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\frontend\app\courses\page.tsx:HEAD] running linter (cache-key:ddb02ffd04de2b6a125b28e16a5a4d37)
+[2025-08-22 02:59:50.642] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\pages\test-login.jsx:HEAD], removing from cache
+[2025-08-22 02:59:50.643] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\frontend\app\globals.css:HEAD], removing from cache
+[2025-08-22 02:59:50.643] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\frontend\app\globals.css:HEAD] running linter (cache-key:cbcf7eb7127509a2d713482c4c9c91d5)
+[2025-08-22 02:59:50.644] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\pages\test-login.jsx:HEAD] running linter (cache-key:69d980a1d2013ac61e930f10f275bf6a)
+[2025-08-22 02:59:50.645] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\frontend\app\icon.svg:HEAD], removing from cache
+[2025-08-22 02:59:50.646] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\postcss.config.js:HEAD], removing from cache
+[2025-08-22 02:59:50.646] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\frontend\app\icon.svg:HEAD] running linter (cache-key:756987f11c8f3e27d35da10c94397da5)
+[2025-08-22 02:59:50.647] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\postcss.config.js:HEAD] running linter (cache-key:414d3fe677b7e4f45869d2d256f57353)
+[2025-08-22 02:59:50.648] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\frontend\app\layout.tsx:HEAD], removing from cache
+[2025-08-22 02:59:50.649] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\public\logo-cbtc.svg:HEAD], removing from cache
+[2025-08-22 02:59:50.650] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\frontend\app\layout.tsx:HEAD] running linter (cache-key:89a3701c5259755136826cf3fb1e8877)
+[2025-08-22 02:59:50.651] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\frontend\app\login\page.tsx:HEAD], removing from cache
+[2025-08-22 02:59:50.652] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\frontend\app\login\page.tsx:HEAD] running linter (cache-key:d64cbf82bfbae567c6996c1c4566aef5)
+[2025-08-22 02:59:50.653] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\frontend\app\page.tsx:HEAD], removing from cache
+[2025-08-22 02:59:50.654] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\frontend\app\page.tsx:HEAD] running linter (cache-key:84ff6e58132f0426ce822bf872b64f0a)
+[2025-08-22 02:59:50.654] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\public\logo-cbtc.svg:HEAD] running linter (cache-key:f0afc0fa8650fc9bb505cc55ce9eb641)
+[2025-08-22 02:59:50.656] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\frontend\app\register\page.tsx:HEAD], removing from cache
+[2025-08-22 02:59:50.657] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\frontend\app\register\page.tsx:HEAD] running linter (cache-key:f561263b0a4dadf8be279ac983a0f5d3)
+[2025-08-22 02:59:50.659] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\tailwind.config.js:HEAD], removing from cache
+[2025-08-22 02:59:50.660] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\frontend\components\Header.jsx:HEAD], removing from cache
+[2025-08-22 02:59:50.660] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\tailwind.config.js:HEAD] running linter (cache-key:c1a0ff7191ba11276d24b2d2429529f4)
+[2025-08-22 02:59:50.661] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\frontend\components\Header.jsx:HEAD] running linter (cache-key:117143a62a98be0da80fa3764b4754a3)
+[2025-08-22 02:59:50.662] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\tsconfig.json:HEAD], removing from cache
+[2025-08-22 02:59:50.663] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\frontend\components\Logo.tsx:HEAD], removing from cache
+[2025-08-22 02:59:50.663] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\tsconfig.json:HEAD] running linter (cache-key:588e48acaf88afce74d71130e69ff1dc)
+[2025-08-22 02:59:50.664] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\frontend\components\Logo.tsx:HEAD] running linter (cache-key:3100f7d04212a6de68f2d9716c4b321d)
+[2025-08-22 02:59:50.665] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\vercel.json:HEAD] already cached, not running linter
+[2025-08-22 02:59:50.666] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\frontend\components\header.tsx:HEAD], removing from cache
+[2025-08-22 02:59:50.667] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\frontend\components\header.tsx:HEAD] running linter (cache-key:a41331a6817993a6ca63317f3c30b03f)
+[2025-08-22 02:59:50.668] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\frontend\lib\api.ts:HEAD], removing from cache
+[2025-08-22 02:59:50.669] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\frontend\lib\api.ts:HEAD] running linter (cache-key:64afc7b113e0f525d72dadf1850fb8fe)
+[2025-08-22 02:59:50.671] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\frontend\lib\config.ts:HEAD], removing from cache
+[2025-08-22 02:59:50.672] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\frontend\lib\config.ts:HEAD] running linter (cache-key:e57123ae66a79616c478613cc221f7f0)
+[2025-08-22 02:59:50.673] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\frontend\new commit:HEAD], removing from cache
+[2025-08-22 02:59:50.674] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\frontend\new commit:HEAD] running linter (cache-key:10df85a77778bcec33744e3345edac2f)
+[2025-08-22 02:59:50.675] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\frontend\next.config.mjs:HEAD], removing from cache
+[2025-08-22 02:59:50.676] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\frontend\next.config.mjs:HEAD] running linter (cache-key:a2e93a9c0002a2c0543edb7cc8dc59af)
+[2025-08-22 02:59:50.677] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\frontend\package-lock.json:HEAD], removing from cache
+[2025-08-22 02:59:50.677] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\frontend\package-lock.json:HEAD] running linter (cache-key:6f102defaaaaf23415a60a6c7a783910)
+[2025-08-22 02:59:50.768] [global] [info] [cache.cc:974] [monitor] [hadolint:lint:frontend\frontend\Dockerfile:HEAD] running linter (cache-key:c8b1bba4edd09fca0d20e15a89ebe1a6)
+[2025-08-22 02:59:55.873] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 02:59:55.873] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 02:59:56.983] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.bat // 3:The system cannot find the path specified.
+[2025-08-22 02:59:56.983] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3 // 3:The system cannot find the path specified.
+[2025-08-22 02:59:56.983] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.exe // 3:The system cannot find the path specified.
+[2025-08-22 02:59:56.983] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.bat // 3:The system cannot find the path specified.
+[2025-08-22 02:59:56.983] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3 // 3:The system cannot find the path specified.
+[2025-08-22 02:59:56.983] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.exe // 3:The system cannot find the path specified.
+[2025-08-22 02:59:56.983] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:The system cannot find the path specified.
+[2025-08-22 02:59:56.983] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:The system cannot find the path specified.
+[2025-08-22 02:59:56.983] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:The system cannot find the path specified.
+[2025-08-22 02:59:57.154] [global] [info] [cache.cc:1117] [monitor] [trufflehog:lint:frontend\frontend\package.json... (20 files):HEAD] Linter ran in 6365ms
+[2025-08-22 03:00:00.112] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.bat // 3:The system cannot find the path specified.
+[2025-08-22 03:00:00.112] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3 // 3:The system cannot find the path specified.
+[2025-08-22 03:00:00.112] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.exe // 3:The system cannot find the path specified.
+[2025-08-22 03:00:00.112] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.bat // 3:The system cannot find the path specified.
+[2025-08-22 03:00:00.112] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3 // 3:The system cannot find the path specified.
+[2025-08-22 03:00:00.112] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.exe // 3:The system cannot find the path specified.
+[2025-08-22 03:00:00.112] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:The system cannot find the path specified.
+[2025-08-22 03:00:00.112] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:The system cannot find the path specified.
+[2025-08-22 03:00:00.112] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:The system cannot find the path specified.
+[2025-08-22 03:00:00.192] [global] [info] [cache.cc:1117] [monitor] [trufflehog:lint:frontend\.env.example... (64 files):HEAD] Linter ran in 8951ms
+[2025-08-22 03:07:39.528] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:07:39.529] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:07:40.642] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:07:40.642] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:07:42.233] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:07:42.234] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:07:42.237] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.bat // 3:The system cannot find the path specified.
+[2025-08-22 03:07:42.237] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go // 3:The system cannot find the path specified.
+[2025-08-22 03:07:42.237] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.exe // 3:The system cannot find the path specified.
+[2025-08-22 03:07:42.242] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.bat // 3:The system cannot find the path specified.
+[2025-08-22 03:07:42.243] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go // 3:The system cannot find the path specified.
+[2025-08-22 03:07:42.243] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.exe // 3:The system cannot find the path specified.
+[2025-08-22 03:07:42.250] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.bat // 3:The system cannot find the path specified.
+[2025-08-22 03:07:42.250] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go // 3:The system cannot find the path specified.
+[2025-08-22 03:07:42.250] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.exe // 3:The system cannot find the path specified.
+[2025-08-22 03:07:42.258] [global] [info] [cache.cc:974] [monitor] [hadolint:lint:frontend\Dockerfile:HEAD] running linter (cache-key:98cdcf4744c312bee1b678de5d517b6f)
+[2025-08-22 03:07:42.298] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\postcss.config.js:HEAD] already cached, not running linter
+[2025-08-22 03:07:42.299] [global] [info] [cache.cc:974] [monitor] [hadolint:lint:frontend\backend\Dockerfile:HEAD] running linter (cache-key:8c37a5e27f6bcde741129bfb22348af5)
+[2025-08-22 03:07:42.299] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\public\logo-cbtc.svg:HEAD] already cached, not running linter
+[2025-08-22 03:07:42.299] [global] [info] [cache.cc:974] [monitor] [hadolint:lint:frontend\frontend\Dockerfile:HEAD] running linter (cache-key:c8b1bba4edd09fca0d20e15a89ebe1a6)
+[2025-08-22 03:07:42.301] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\simple readme:HEAD] already cached, not running linter
+[2025-08-22 03:07:42.302] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\tailwind.config.js:HEAD] already cached, not running linter
+[2025-08-22 03:07:42.303] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\tsconfig.json:HEAD] already cached, not running linter
+[2025-08-22 03:07:42.307] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\get-docker.sh:HEAD] already cached, not running linter
+[2025-08-22 03:07:42.308] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\git-filter-repo.txt:HEAD] already cached, not running linter
+[2025-08-22 03:07:42.310] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\lib\api.ts:HEAD] already cached, not running linter
+[2025-08-22 03:07:42.311] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\next.config.mjs:HEAD] already cached, not running linter
+[2025-08-22 03:07:42.313] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\package-lock.json:HEAD] already cached, not running linter
+[2025-08-22 03:07:42.314] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\package.json:HEAD] already cached, not running linter
+[2025-08-22 03:07:42.316] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\pages\login.jsx:HEAD] already cached, not running linter
+[2025-08-22 03:07:42.317] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\pages\register.jsx:HEAD] already cached, not running linter
+[2025-08-22 03:07:42.318] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\pages\test-login.jsx:HEAD] already cached, not running linter
+[2025-08-22 03:07:42.320] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\postcss.config.js:HEAD] already cached, not running linter
+[2025-08-22 03:07:42.322] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\public\logo-cbtc.svg:HEAD] already cached, not running linter
+[2025-08-22 03:07:42.324] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\tailwind.config.js:HEAD] already cached, not running linter
+[2025-08-22 03:07:42.325] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\tsconfig.json:HEAD] already cached, not running linter
+[2025-08-22 03:07:42.327] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\vercel.json:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.419] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.bat // 3:The system cannot find the path specified.
+[2025-08-22 03:07:43.419] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go // 3:The system cannot find the path specified.
+[2025-08-22 03:07:43.419] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.exe // 3:The system cannot find the path specified.
+[2025-08-22 03:07:43.424] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.bat // 3:The system cannot find the path specified.
+[2025-08-22 03:07:43.424] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go // 3:The system cannot find the path specified.
+[2025-08-22 03:07:43.425] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.exe // 3:The system cannot find the path specified.
+[2025-08-22 03:07:43.434] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.bat // 3:The system cannot find the path specified.
+[2025-08-22 03:07:43.434] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go // 3:The system cannot find the path specified.
+[2025-08-22 03:07:43.434] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.exe // 3:The system cannot find the path specified.
+[2025-08-22 03:07:43.482] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.env.example:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.483] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitignore:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.484] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitignore.backup.20250818-010710:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.486] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitmessage.txt:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.488] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\Dockerfile:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.489] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\My Powershell Profile:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.491] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\app\globals.css:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.492] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\app\login\page.tsx:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.494] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\app\page.tsx:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.495] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\app\register\page.tsx:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.497] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\backend\.gitignore:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.499] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\backend\Dockerfile:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.500] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\public\logo-cbtc.svg:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.502] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\backend\config.ts:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.503] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\simple readme:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.504] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\backend\index.js:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.505] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\tailwind.config.js:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.507] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\backend\monitor_performance.js:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.507] [global] [info] [cache.cc:974] [monitor] [hadolint:lint:frontend\backend\Dockerfile:HEAD] running linter (cache-key:8c37a5e27f6bcde741129bfb22348af5)
+[2025-08-22 03:07:43.507] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\tsconfig.json:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.509] [global] [info] [cache.cc:974] [monitor] [hadolint:lint:frontend\Dockerfile:HEAD] running linter (cache-key:98cdcf4744c312bee1b678de5d517b6f)
+[2025-08-22 03:07:43.509] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\backend\package-lock.json:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.510] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\get-docker.sh:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.511] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\backend\package.json:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.512] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\git-filter-repo.txt:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.513] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\backend\package.json.backup:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.514] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\lib\api.ts:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.515] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\backend\prisma\schema.prisma:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.516] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\next.config.mjs:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.517] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\backend\prisma\schema.prisma.postgres.backup:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.519] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\backend\routes\conflicts.js:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.520] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\backend\schema.prisma:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.522] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\backend\seed.ts:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.523] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\package-lock.json:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.524] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\backend\server.js:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.526] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\package.json:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.527] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\backend\src\config.ts:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.528] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\pages\login.jsx:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.529] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\backend\src\dev.ts:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.530] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\pages\register.jsx:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.531] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\backend\src\index.ts:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.532] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\pages\test-login.jsx:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.533] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\backend\src\middleware\auth.ts:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.534] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\postcss.config.js:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.535] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\backend\src\prisma.ts:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.536] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\public\logo-cbtc.svg:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.537] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\backend\src\routes\auth.ts:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.538] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\tailwind.config.js:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.539] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\backend\src\routes\content.ts:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.540] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\tsconfig.json:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.541] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\backend\src\routes\programs.ts:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.542] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\vercel.json:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.545] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\backend\src\routes\users.ts:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.547] [global] [info] [cache.cc:974] [monitor] [hadolint:lint:frontend\frontend\Dockerfile:HEAD] running linter (cache-key:c8b1bba4edd09fca0d20e15a89ebe1a6)
+[2025-08-22 03:07:43.547] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\backend\tsconfig.json:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.548] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\backend\validate_platform.js:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.551] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\components\Logo.tsx:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.552] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\env.example:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.553] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\env.local.example:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.555] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\Dockerfile:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.556] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\Next.js:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.557] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\app\admin\page.tsx:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.558] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\app\api\auth\login\route.ts:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.560] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\app\api\auth\register\route.ts:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.561] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\app\api\courses\[id]\route.ts:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.562] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\app\api\courses\route.ts:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.563] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\app\api\test\route.ts:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.565] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\app\courses\[id]\page.tsx:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.566] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\app\courses\page.tsx:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.567] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\app\globals.css:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.568] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\app\icon.svg:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.569] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\app\layout.tsx:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.571] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\app\login\page.tsx:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.572] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\app\page.tsx:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.573] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\app\register\page.tsx:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.574] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\components\Header.jsx:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.576] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\components\Logo.tsx:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.577] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\components\header.tsx:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.578] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\lib\api.ts:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.580] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\lib\config.ts:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.581] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\new commit:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.582] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\next.config.mjs:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.585] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\package-lock.json:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.586] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\package.json:HEAD] already cached, not running linter
+[2025-08-22 03:07:43.587] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\postcss.config.js:HEAD] already cached, not running linter
+[2025-08-22 03:07:44.299] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:07:44.299] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:07:51.218] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:07:51.218] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:07:52.943] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:07:52.943] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:14:30.603] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:14:30.603] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:14:30.988] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:.github\workflows\deploy.yml:HEAD] already cached, not running linter
+[2025-08-22 03:14:30.989] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:DEPLOYMENT.md:HEAD] already cached, not running linter
+[2025-08-22 03:14:30.991] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:RAILWAY_DEPLOYMENT_FIX.md:HEAD] already cached, not running linter
+[2025-08-22 03:14:30.991] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:backend\nixpacks.toml:HEAD] running linter (cache-key:92f1cfc9733621601f38c807d5e37efb)
+[2025-08-22 03:14:30.993] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\package.json.railway:HEAD] already cached, not running linter
+[2025-08-22 03:14:30.993] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:backend\railway.toml:HEAD] running linter (cache-key:3b11a228f75416db733a7851c2bc1be5)
+[2025-08-22 03:14:30.994] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\env.local.example:HEAD] already cached, not running linter
+[2025-08-22 03:14:39.592] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.bat // 3:The system cannot find the path specified.
+[2025-08-22 03:14:39.592] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3 // 3:The system cannot find the path specified.
+[2025-08-22 03:14:39.592] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.exe // 3:The system cannot find the path specified.
+[2025-08-22 03:14:39.592] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.bat // 3:The system cannot find the path specified.
+[2025-08-22 03:14:39.592] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3 // 3:The system cannot find the path specified.
+[2025-08-22 03:14:39.592] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.exe // 3:The system cannot find the path specified.
+[2025-08-22 03:14:39.592] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:The system cannot find the path specified.
+[2025-08-22 03:14:39.592] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:The system cannot find the path specified.
+[2025-08-22 03:14:39.592] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:The system cannot find the path specified.
+[2025-08-22 03:14:39.793] [global] [info] [cache.cc:1117] [monitor] [trufflehog:lint:.github\workflows\deploy.yml... (7 files):HEAD] Linter ran in 8789ms
+[2025-08-22 03:15:04.135] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:15:04.135] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:15:04.648] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:15:04.648] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:15:05.028] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:backend\controllers\categoryController.js:HEAD], removing from cache
+[2025-08-22 03:15:05.029] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:backend\controllers\categoryController.js:HEAD] running linter (cache-key:c82234115f65f213bcf005f09b46678a)
+[2025-08-22 03:15:05.031] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\env.example:HEAD] already cached, not running linter
+[2025-08-22 03:15:05.032] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:backend\index.js:HEAD], removing from cache
+[2025-08-22 03:15:05.032] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:backend\index.js:HEAD] running linter (cache-key:bd3ab95645875463c14382ea49225826)
+[2025-08-22 03:15:05.033] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:backend\middleware\auth.js:HEAD], removing from cache
+[2025-08-22 03:15:05.034] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:backend\middleware\auth.js:HEAD] running linter (cache-key:87cae87e535a8866be23b6f5e77e3c21)
+[2025-08-22 03:15:05.035] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:backend\middleware\validation.js:HEAD], removing from cache
+[2025-08-22 03:15:05.035] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:backend\middleware\validation.js:HEAD] running linter (cache-key:beb56ecb65e0bfc71f366e9b3ec99edd)
+[2025-08-22 03:15:05.036] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\nixpacks.toml:HEAD] already cached, not running linter
+[2025-08-22 03:15:05.037] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:backend\package-lock.json:HEAD], removing from cache
+[2025-08-22 03:15:05.038] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:backend\package-lock.json:HEAD] running linter (cache-key:8e30d657ff41977a54fc2719a3a5e5d0)
+[2025-08-22 03:15:05.038] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\package.json:HEAD] already cached, not running linter
+[2025-08-22 03:15:05.039] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\package.json.railway:HEAD] already cached, not running linter
+[2025-08-22 03:15:05.040] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:backend\prisma\prisma\seed.ts:HEAD], removing from cache
+[2025-08-22 03:15:05.040] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:backend\prisma\prisma\seed.ts:HEAD] running linter (cache-key:9bdc6bbd57c281d27cd2d1bfe65964dd)
+[2025-08-22 03:15:05.040] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\prisma\schema.prisma:HEAD] already cached, not running linter
+[2025-08-22 03:15:05.041] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:backend\prisma\seed.ts:HEAD], removing from cache
+[2025-08-22 03:15:05.041] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:backend\prisma\seed.ts:HEAD] running linter (cache-key:b6fd035a6c96e96008f697cebba972c0)
+[2025-08-22 03:15:05.042] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\railway.toml:HEAD] already cached, not running linter
+[2025-08-22 03:15:05.042] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:backend\routes\categories.js:HEAD], removing from cache
+[2025-08-22 03:15:05.043] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:backend\routes\categories.js:HEAD] running linter (cache-key:1d65892b9b10ff5b644f4d137b688a78)
+[2025-08-22 03:15:05.043] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:backend\server.js:HEAD], removing from cache
+[2025-08-22 03:15:05.043] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:backend\server.js:HEAD] running linter (cache-key:a14bd3585421d1cebbc38f5166526585)
+[2025-08-22 03:15:05.044] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:backend\src\index.ts:HEAD], removing from cache
+[2025-08-22 03:15:05.044] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:backend\src\index.ts:HEAD] running linter (cache-key:f9ce6dcbdbbdb70530cd68f5acb8c769)
+[2025-08-22 03:15:05.045] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:backend\src\middleware\ApiResponse.js:HEAD], removing from cache
+[2025-08-22 03:15:05.045] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:backend\src\middleware\ApiResponse.js:HEAD] running linter (cache-key:85f2591029abfefcde35a15e861fd38f)
+[2025-08-22 03:15:05.046] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:backend\src\middleware\auth.ts:HEAD], removing from cache
+[2025-08-22 03:15:05.047] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:backend\src\middleware\auth.ts:HEAD] running linter (cache-key:27427cd4d9bd1766c071d5d4f700ee9b)
+[2025-08-22 03:15:05.048] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:backend\src\middleware\validation.js:HEAD], removing from cache
+[2025-08-22 03:15:05.049] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:backend\src\middleware\validation.js:HEAD] running linter (cache-key:3672b054f741ceb304956d05e8b67d82)
+[2025-08-22 03:15:05.049] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:backend\src\routes\asyncHandler.js:HEAD], removing from cache
+[2025-08-22 03:15:05.050] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:backend\src\routes\asyncHandler.js:HEAD] running linter (cache-key:808b0286c192da2585831a054b1efade)
+[2025-08-22 03:15:05.051] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:backend\src\routes\categories.js:HEAD], removing from cache
+[2025-08-22 03:15:05.051] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:backend\src\routes\categories.js:HEAD] running linter (cache-key:476540fc8bf31591b7decf6a66b6622e)
+[2025-08-22 03:15:05.052] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:backend\src\routes\categories.ts:HEAD], removing from cache
+[2025-08-22 03:15:05.053] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:backend\src\routes\categories.ts:HEAD] running linter (cache-key:18e82160f8d56b820916ad74437bc43b)
+[2025-08-22 03:15:05.053] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:backend\src\routes\categoryController.js:HEAD], removing from cache
+[2025-08-22 03:15:05.054] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:backend\src\routes\categoryController.js:HEAD] running linter (cache-key:14a0c7a0e228ca46c25a4a287a93f921)
+[2025-08-22 03:15:05.055] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:backend\src\routes\ielts.ts:HEAD], removing from cache
+[2025-08-22 03:15:05.055] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:backend\src\routes\ielts.ts:HEAD] running linter (cache-key:e897084fcbd1eb9198ca0920d94e080b)
+[2025-08-22 03:15:05.056] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:backend\src\routes\lessons.ts:HEAD], removing from cache
+[2025-08-22 03:15:05.056] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:backend\src\routes\lessons.ts:HEAD] running linter (cache-key:bfcd05445e63598fa1577cd565fdcdfc)
+[2025-08-22 03:15:05.057] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:backend\src\routes\programs.ts:HEAD], removing from cache
+[2025-08-22 03:15:05.057] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:backend\src\routes\programs.ts:HEAD] running linter (cache-key:7446a0a21ecc180f4a571c41d5719f30)
+[2025-08-22 03:15:05.058] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:backend\src\routes\users.ts:HEAD], removing from cache
+[2025-08-22 03:15:05.058] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:backend\src\routes\users.ts:HEAD] running linter (cache-key:e2c9d7ee21839a0584d23883c40ce761)
+[2025-08-22 03:15:05.058] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:backend\src\services\aiClients.ts:HEAD], removing from cache
+[2025-08-22 03:15:05.059] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:backend\src\services\aiClients.ts:HEAD] running linter (cache-key:cc0db49733d648f8d1de03b1d253335a)
+[2025-08-22 03:15:05.059] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:backend\tsconfig.json:HEAD], removing from cache
+[2025-08-22 03:15:05.059] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:backend\tsconfig.json:HEAD] running linter (cache-key:b08d3e13d763d2e6d679cc4d82236a28)
+[2025-08-22 03:15:05.060] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:backend\utils\ApiResponse.js:HEAD], removing from cache
+[2025-08-22 03:15:05.060] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:backend\utils\ApiResponse.js:HEAD] running linter (cache-key:b70c231a56141d74dc759bfff8db9100)
+[2025-08-22 03:15:05.061] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:backend\utils\asyncHandler.js.js:HEAD], removing from cache
+[2025-08-22 03:15:05.061] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:backend\utils\asyncHandler.js.js:HEAD] running linter (cache-key:6f8c8b35679166402ebcbd29a8605fea)
+[2025-08-22 03:15:06.158] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:15:06.158] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:15:08.934] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.bat // 3:The system cannot find the path specified.
+[2025-08-22 03:15:08.934] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3 // 3:The system cannot find the path specified.
+[2025-08-22 03:15:08.934] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.exe // 3:The system cannot find the path specified.
+[2025-08-22 03:15:08.934] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.bat // 3:The system cannot find the path specified.
+[2025-08-22 03:15:08.934] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3 // 3:The system cannot find the path specified.
+[2025-08-22 03:15:08.934] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.exe // 3:The system cannot find the path specified.
+[2025-08-22 03:15:08.934] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:The system cannot find the path specified.
+[2025-08-22 03:15:08.934] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:The system cannot find the path specified.
+[2025-08-22 03:15:08.934] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:The system cannot find the path specified.
+[2025-08-22 03:15:09.126] [global] [info] [cache.cc:1117] [monitor] [trufflehog:lint:backend\controllers\categoryController.js... (31 files):HEAD] Linter ran in 3816ms
+[2025-08-22 03:15:18.234] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:15:18.234] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:15:18.551] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.bat // 3:The system cannot find the path specified.
+[2025-08-22 03:15:18.551] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go // 3:The system cannot find the path specified.
+[2025-08-22 03:15:18.552] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.exe // 3:The system cannot find the path specified.
+[2025-08-22 03:15:18.554] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.bat // 3:The system cannot find the path specified.
+[2025-08-22 03:15:18.554] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go // 3:The system cannot find the path specified.
+[2025-08-22 03:15:18.554] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.exe // 3:The system cannot find the path specified.
+[2025-08-22 03:15:18.557] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.bat // 3:The system cannot find the path specified.
+[2025-08-22 03:15:18.557] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go // 3:The system cannot find the path specified.
+[2025-08-22 03:15:18.557] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.exe // 3:The system cannot find the path specified.
+[2025-08-22 03:15:18.560] [global] [info] [cache.cc:974] [monitor] [hadolint:lint:frontend\Dockerfile:HEAD] running linter (cache-key:98cdcf4744c312bee1b678de5d517b6f)
+[2025-08-22 03:15:18.571] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.env.example:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.571] [global] [info] [cache.cc:974] [monitor] [hadolint:lint:frontend\frontend\Dockerfile:HEAD] running linter (cache-key:c8b1bba4edd09fca0d20e15a89ebe1a6)
+[2025-08-22 03:15:18.571] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitignore:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.572] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitignore.backup.20250818-010710:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.573] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitmessage.txt:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.573] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\Dockerfile:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.574] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\My Powershell Profile:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.574] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\app\globals.css:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.575] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\app\login\page.tsx:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.576] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\app\page.tsx:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.577] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\app\register\page.tsx:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.577] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\components\Logo.tsx:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.578] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\env.example:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.578] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\env.local.example:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.579] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\Dockerfile:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.579] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\Next.js:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.580] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\app\admin\page.tsx:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.580] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\app\api\auth\login\route.ts:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.581] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\app\api\auth\register\route.ts:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.581] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\app\api\courses\[id]\route.ts:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.581] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\app\api\courses\route.ts:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.582] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\app\api\test\route.ts:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.582] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\app\courses\[id]\page.tsx:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.583] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\app\courses\page.tsx:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.583] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\app\globals.css:HEAD] already cached, not running linter

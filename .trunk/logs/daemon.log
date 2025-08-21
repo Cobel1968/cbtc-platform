@@ -1,0 +1,181 @@
+[2025-08-22 03:15:18.583] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\app\icon.svg:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.698] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\app\layout.tsx:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.699] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\app\login\page.tsx:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.699] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\app\page.tsx:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.700] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\app\register\page.tsx:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.701] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\components\Header.jsx:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.701] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\components\Logo.tsx:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.701] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\components\header.tsx:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.702] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\lib\api.ts:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.702] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\lib\config.ts:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.703] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\new commit:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.703] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\next.config.mjs:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.704] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\package-lock.json:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.704] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\package.json:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.704] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\postcss.config.js:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.705] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\public\logo-cbtc.svg:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.705] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\simple readme:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.706] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\tailwind.config.js:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.706] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\tsconfig.json:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.706] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\get-docker.sh:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.707] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\git-filter-repo.txt:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.707] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\lib\api.ts:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.708] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\next.config.mjs:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.708] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\package-lock.json:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.708] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\package.json:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.709] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\postcss.config.js:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.709] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\public\logo-cbtc.svg:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.710] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\tailwind.config.js:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.710] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\tsconfig.json:HEAD] already cached, not running linter
+[2025-08-22 03:15:18.711] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\vercel.json:HEAD] already cached, not running linter
+[2025-08-22 03:15:20.081] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:15:20.081] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:15:33.648] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:15:33.648] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:15:34.169] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.bat // 3:The system cannot find the path specified.
+[2025-08-22 03:15:34.170] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go // 3:The system cannot find the path specified.
+[2025-08-22 03:15:34.170] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.exe // 3:The system cannot find the path specified.
+[2025-08-22 03:15:34.175] [global] [info] [cache.cc:974] [monitor] [hadolint:lint:frontend\Dockerfile:HEAD] running linter (cache-key:6119900264c4d39c2533d852a279e0e4)
+[2025-08-22 03:15:34.175] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.bat // 3:The system cannot find the path specified.
+[2025-08-22 03:15:34.175] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go // 3:The system cannot find the path specified.
+[2025-08-22 03:15:34.175] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.exe // 3:The system cannot find the path specified.
+[2025-08-22 03:15:34.179] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.bat // 3:The system cannot find the path specified.
+[2025-08-22 03:15:34.180] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go // 3:The system cannot find the path specified.
+[2025-08-22 03:15:34.180] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.exe // 3:The system cannot find the path specified.
+[2025-08-22 03:15:34.193] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.env.example:HEAD] already cached, not running linter
+[2025-08-22 03:15:34.194] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitignore:HEAD] already cached, not running linter
+[2025-08-22 03:15:34.195] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitignore.backup.20250818-010710:HEAD] already cached, not running linter
+[2025-08-22 03:15:34.197] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitmessage.txt:HEAD] already cached, not running linter
+[2025-08-22 03:15:34.197] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\Dockerfile:HEAD] running linter (cache-key:f42ec0629593bd470a85af27f7be2ad4)
+[2025-08-22 03:15:34.198] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\My Powershell Profile:HEAD] already cached, not running linter
+[2025-08-22 03:15:34.198] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\app\globals.css:HEAD] running linter (cache-key:722dd2fe5c5bda4b0a94a32ab8718f1d)
+[2025-08-22 03:15:34.198] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\app\login\page.tsx:HEAD] running linter (cache-key:e62216b7bc5372364661e2296e91b63c)
+[2025-08-22 03:15:34.199] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\app\page.tsx:HEAD] running linter (cache-key:7c5085eef37d7d27f0dca36d47f99c4c)
+[2025-08-22 03:15:34.199] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\app\register\page.tsx:HEAD] running linter (cache-key:0cac3a3bfc46442102f09db5e5cb4d85)
+[2025-08-22 03:15:34.199] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\components\Logo.tsx:HEAD] running linter (cache-key:296cc3475907dbb5a6ffc193980b7b81)
+[2025-08-22 03:15:34.201] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\env.example:HEAD] already cached, not running linter
+[2025-08-22 03:15:34.204] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\env.local.example:HEAD] already cached, not running linter
+[2025-08-22 03:15:34.206] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\get-docker.sh:HEAD] already cached, not running linter
+[2025-08-22 03:15:34.208] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\git-filter-repo.txt:HEAD] already cached, not running linter
+[2025-08-22 03:15:34.208] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\lib\api.ts:HEAD] running linter (cache-key:b905b015d114a64f2e76f76f16f47793)
+[2025-08-22 03:15:34.209] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\next.config.mjs:HEAD] running linter (cache-key:03c9a1546bce7f6547eba7bee78810ca)
+[2025-08-22 03:15:34.209] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\package-lock.json:HEAD] running linter (cache-key:3155982e125b4ea6df3f67b506b1d167)
+[2025-08-22 03:15:34.209] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\package.json:HEAD] running linter (cache-key:9b5dfb717c1dc2e60e6e9c1d25e122d2)
+[2025-08-22 03:15:34.209] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\postcss.config.js:HEAD] running linter (cache-key:9b9654976ba11f947f7b15cc8a8ec41b)
+[2025-08-22 03:15:34.209] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\public\logo-cbtc.svg:HEAD] running linter (cache-key:41d37e9c7e13ac19a553f52fb312a6e9)
+[2025-08-22 03:15:34.209] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\tailwind.config.js:HEAD] running linter (cache-key:278bab1f4946c8bd119f8adea9973014)
+[2025-08-22 03:15:34.210] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\tsconfig.json:HEAD] running linter (cache-key:7a2f55b6366d49487d099d129e70abb4)
+[2025-08-22 03:15:34.211] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\vercel.json:HEAD] already cached, not running linter
+[2025-08-22 03:15:35.128] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:15:35.128] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:15:35.917] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.env.example:HEAD] already cached, not running linter
+[2025-08-22 03:15:35.919] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitignore:HEAD] already cached, not running linter
+[2025-08-22 03:15:35.921] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitignore.backup.20250818-010710:HEAD] already cached, not running linter
+[2025-08-22 03:15:35.922] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitmessage.txt:HEAD] already cached, not running linter
+[2025-08-22 03:15:35.923] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\Dockerfile:HEAD] linting in progress, waiting (cache-key:f42ec0629593bd470a85af27f7be2ad4)
+[2025-08-22 03:15:35.924] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\My Powershell Profile:HEAD] already cached, not running linter
+[2025-08-22 03:15:35.924] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\app\globals.css:HEAD] linting in progress, waiting (cache-key:722dd2fe5c5bda4b0a94a32ab8718f1d)
+[2025-08-22 03:15:35.924] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\app\login\page.tsx:HEAD] linting in progress, waiting (cache-key:e62216b7bc5372364661e2296e91b63c)
+[2025-08-22 03:15:35.925] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\app\page.tsx:HEAD] linting in progress, waiting (cache-key:7c5085eef37d7d27f0dca36d47f99c4c)
+[2025-08-22 03:15:35.925] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\app\register\page.tsx:HEAD] linting in progress, waiting (cache-key:0cac3a3bfc46442102f09db5e5cb4d85)
+[2025-08-22 03:15:35.925] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\components\Logo.tsx:HEAD] linting in progress, waiting (cache-key:296cc3475907dbb5a6ffc193980b7b81)
+[2025-08-22 03:15:35.926] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\env.example:HEAD] already cached, not running linter
+[2025-08-22 03:15:35.927] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\env.local.example:HEAD] already cached, not running linter
+[2025-08-22 03:15:35.929] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\git-filter-repo.txt:HEAD] already cached, not running linter
+[2025-08-22 03:15:35.929] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\lib\api.ts:HEAD] linting in progress, waiting (cache-key:b905b015d114a64f2e76f76f16f47793)
+[2025-08-22 03:15:35.929] [global] [info] [cache.cc:974] [monitor] [hadolint:lint:frontend\Dockerfile:HEAD] running linter (cache-key:6119900264c4d39c2533d852a279e0e4)
+[2025-08-22 03:15:35.930] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\next.config.mjs:HEAD] linting in progress, waiting (cache-key:03c9a1546bce7f6547eba7bee78810ca)
+[2025-08-22 03:15:35.930] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\package-lock.json:HEAD] linting in progress, waiting (cache-key:3155982e125b4ea6df3f67b506b1d167)
+[2025-08-22 03:15:35.931] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\package.json:HEAD] linting in progress, waiting (cache-key:9b5dfb717c1dc2e60e6e9c1d25e122d2)
+[2025-08-22 03:15:35.931] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\postcss.config.js:HEAD] linting in progress, waiting (cache-key:9b9654976ba11f947f7b15cc8a8ec41b)
+[2025-08-22 03:15:35.931] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\public\logo-cbtc.svg:HEAD] linting in progress, waiting (cache-key:41d37e9c7e13ac19a553f52fb312a6e9)
+[2025-08-22 03:15:35.931] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\tailwind.config.js:HEAD] linting in progress, waiting (cache-key:278bab1f4946c8bd119f8adea9973014)
+[2025-08-22 03:15:35.932] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\tsconfig.json:HEAD] linting in progress, waiting (cache-key:7a2f55b6366d49487d099d129e70abb4)
+[2025-08-22 03:15:35.933] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\vercel.json:HEAD] already cached, not running linter
+[2025-08-22 03:15:36.739] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:15:36.739] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:15:37.844] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:15:37.844] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:15:37.907] [global] [info] [cache.cc:974] [monitor] [hadolint:lint:frontend\Dockerfile:HEAD] running linter (cache-key:6119900264c4d39c2533d852a279e0e4)
+[2025-08-22 03:15:38.575] [global] [info] [cache.cc:974] [monitor] [hadolint:lint:frontend\Dockerfile:HEAD] running linter (cache-key:6119900264c4d39c2533d852a279e0e4)
+[2025-08-22 03:15:38.592] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.env.example:HEAD] already cached, not running linter
+[2025-08-22 03:15:38.593] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitignore:HEAD] already cached, not running linter
+[2025-08-22 03:15:38.594] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitignore.backup.20250818-010710:HEAD] already cached, not running linter
+[2025-08-22 03:15:38.594] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitmessage.txt:HEAD] already cached, not running linter
+[2025-08-22 03:15:38.595] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\Dockerfile:HEAD] linting in progress, waiting (cache-key:f42ec0629593bd470a85af27f7be2ad4)
+[2025-08-22 03:15:38.595] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\app\globals.css:HEAD] linting in progress, waiting (cache-key:722dd2fe5c5bda4b0a94a32ab8718f1d)
+[2025-08-22 03:15:38.595] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\app\login\page.tsx:HEAD] linting in progress, waiting (cache-key:e62216b7bc5372364661e2296e91b63c)
+[2025-08-22 03:15:38.595] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\app\page.tsx:HEAD] linting in progress, waiting (cache-key:7c5085eef37d7d27f0dca36d47f99c4c)
+[2025-08-22 03:15:38.595] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\app\register\page.tsx:HEAD] linting in progress, waiting (cache-key:0cac3a3bfc46442102f09db5e5cb4d85)
+[2025-08-22 03:15:38.595] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\components\Logo.tsx:HEAD] linting in progress, waiting (cache-key:296cc3475907dbb5a6ffc193980b7b81)
+[2025-08-22 03:15:38.596] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\env.example:HEAD] already cached, not running linter
+[2025-08-22 03:15:38.597] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\env.local.example:HEAD] already cached, not running linter
+[2025-08-22 03:15:38.598] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\lib\api.ts:HEAD] linting in progress, waiting (cache-key:b905b015d114a64f2e76f76f16f47793)
+[2025-08-22 03:15:38.598] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\next.config.mjs:HEAD] linting in progress, waiting (cache-key:03c9a1546bce7f6547eba7bee78810ca)
+[2025-08-22 03:15:38.598] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\package-lock.json:HEAD] linting in progress, waiting (cache-key:3155982e125b4ea6df3f67b506b1d167)
+[2025-08-22 03:15:38.598] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\package.json:HEAD] linting in progress, waiting (cache-key:9b5dfb717c1dc2e60e6e9c1d25e122d2)
+[2025-08-22 03:15:38.598] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\postcss.config.js:HEAD] linting in progress, waiting (cache-key:9b9654976ba11f947f7b15cc8a8ec41b)
+[2025-08-22 03:15:38.598] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\public\logo-cbtc.svg:HEAD] linting in progress, waiting (cache-key:41d37e9c7e13ac19a553f52fb312a6e9)
+[2025-08-22 03:15:38.598] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\tailwind.config.js:HEAD] linting in progress, waiting (cache-key:278bab1f4946c8bd119f8adea9973014)
+[2025-08-22 03:15:38.598] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\tsconfig.json:HEAD] linting in progress, waiting (cache-key:7a2f55b6366d49487d099d129e70abb4)
+[2025-08-22 03:15:38.599] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\vercel.json:HEAD] already cached, not running linter
+[2025-08-22 03:15:41.200] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:15:41.201] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:15:42.354] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:15:42.354] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:15:42.378] [global] [info] [cache.cc:974] [monitor] [hadolint:lint:frontend\Dockerfile:HEAD] running linter (cache-key:6119900264c4d39c2533d852a279e0e4)
+[2025-08-22 03:15:42.492] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.env.example:HEAD] already cached, not running linter
+[2025-08-22 03:15:42.494] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitignore:HEAD] already cached, not running linter
+[2025-08-22 03:15:42.495] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitignore.backup.20250818-010710:HEAD] already cached, not running linter
+[2025-08-22 03:15:42.497] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitmessage.txt:HEAD] already cached, not running linter
+[2025-08-22 03:15:42.497] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\Dockerfile:HEAD] linting in progress, waiting (cache-key:f42ec0629593bd470a85af27f7be2ad4)
+[2025-08-22 03:15:42.498] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\app\globals.css:HEAD] linting in progress, waiting (cache-key:722dd2fe5c5bda4b0a94a32ab8718f1d)
+[2025-08-22 03:15:42.498] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\app\login\page.tsx:HEAD] linting in progress, waiting (cache-key:e62216b7bc5372364661e2296e91b63c)
+[2025-08-22 03:15:42.498] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\app\page.tsx:HEAD] linting in progress, waiting (cache-key:7c5085eef37d7d27f0dca36d47f99c4c)
+[2025-08-22 03:15:42.498] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\app\register\page.tsx:HEAD] linting in progress, waiting (cache-key:0cac3a3bfc46442102f09db5e5cb4d85)
+[2025-08-22 03:15:42.498] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\components\Logo.tsx:HEAD] linting in progress, waiting (cache-key:296cc3475907dbb5a6ffc193980b7b81)
+[2025-08-22 03:15:42.500] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\env.example:HEAD] already cached, not running linter
+[2025-08-22 03:15:42.501] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\env.local.example:HEAD] already cached, not running linter
+[2025-08-22 03:15:42.501] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\lib\api.ts:HEAD] linting in progress, waiting (cache-key:b905b015d114a64f2e76f76f16f47793)
+[2025-08-22 03:15:42.502] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\next.config.mjs:HEAD] linting in progress, waiting (cache-key:03c9a1546bce7f6547eba7bee78810ca)
+[2025-08-22 03:15:42.502] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\package-lock.json:HEAD] linting in progress, waiting (cache-key:3155982e125b4ea6df3f67b506b1d167)
+[2025-08-22 03:15:42.502] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\package.json:HEAD] linting in progress, waiting (cache-key:9b5dfb717c1dc2e60e6e9c1d25e122d2)
+[2025-08-22 03:15:42.502] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\postcss.config.js:HEAD] linting in progress, waiting (cache-key:9b9654976ba11f947f7b15cc8a8ec41b)
+[2025-08-22 03:15:42.502] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\public\logo-cbtc.svg:HEAD] linting in progress, waiting (cache-key:41d37e9c7e13ac19a553f52fb312a6e9)
+[2025-08-22 03:15:42.502] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\tailwind.config.js:HEAD] linting in progress, waiting (cache-key:278bab1f4946c8bd119f8adea9973014)
+[2025-08-22 03:15:42.503] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\tsconfig.json:HEAD] linting in progress, waiting (cache-key:7a2f55b6366d49487d099d129e70abb4)
+[2025-08-22 03:15:42.504] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\vercel.json:HEAD] already cached, not running linter
+[2025-08-22 03:15:44.200] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.bat // 3:The system cannot find the path specified.
+[2025-08-22 03:15:44.200] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3 // 3:The system cannot find the path specified.
+[2025-08-22 03:15:44.200] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.exe // 3:The system cannot find the path specified.
+[2025-08-22 03:15:44.200] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.bat // 3:The system cannot find the path specified.
+[2025-08-22 03:15:44.200] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3 // 3:The system cannot find the path specified.
+[2025-08-22 03:15:44.200] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.exe // 3:The system cannot find the path specified.
+[2025-08-22 03:15:44.200] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:The system cannot find the path specified.
+[2025-08-22 03:15:44.200] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:The system cannot find the path specified.
+[2025-08-22 03:15:44.201] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:The system cannot find the path specified.
+[2025-08-22 03:15:44.355] [global] [info] [cache.cc:1117] [monitor] [trufflehog:lint:frontend\.env.example... (24 files):HEAD] Linter ran in 10076ms
+[2025-08-22 03:15:44.422] [global] [info] [cache.cc:974] [monitor] [hadolint:lint:frontend\Dockerfile:HEAD] running linter (cache-key:6119900264c4d39c2533d852a279e0e4)
+[2025-08-22 03:15:44.422] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.env.example:HEAD] already cached, not running linter
+[2025-08-22 03:15:44.422] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitignore:HEAD] already cached, not running linter
+[2025-08-22 03:15:44.423] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitignore.backup.20250818-010710:HEAD] already cached, not running linter
+[2025-08-22 03:15:44.423] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitmessage.txt:HEAD] already cached, not running linter
+[2025-08-22 03:15:44.424] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\Dockerfile:HEAD] already cached, not running linter
+[2025-08-22 03:15:44.424] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\app\globals.css:HEAD] already cached, not running linter
+[2025-08-22 03:15:44.425] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\app\login\page.tsx:HEAD] already cached, not running linter
+[2025-08-22 03:15:44.425] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\app\page.tsx:HEAD] already cached, not running linter
+[2025-08-22 03:15:44.426] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\app\register\page.tsx:HEAD] already cached, not running linter
+[2025-08-22 03:15:44.427] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\components\Logo.tsx:HEAD] already cached, not running linter
+[2025-08-22 03:15:44.427] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\env.example:HEAD] already cached, not running linter
+[2025-08-22 03:15:44.428] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\env.local.example:HEAD] already cached, not running linter
+[2025-08-22 03:15:44.428] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\lib\api.ts:HEAD] already cached, not running linter
+[2025-08-22 03:15:44.428] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\next.config.mjs:HEAD] already cached, not running linter
+[2025-08-22 03:15:44.429] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\package-lock.json:HEAD] already cached, not running linter
+[2025-08-22 03:15:44.429] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\package.json:HEAD] already cached, not running linter
+[2025-08-22 03:15:44.430] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\postcss.config.js:HEAD] already cached, not running linter
+[2025-08-22 03:15:44.431] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\public\logo-cbtc.svg:HEAD] already cached, not running linter
+[2025-08-22 03:15:44.431] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\tailwind.config.js:HEAD] already cached, not running linter
+[2025-08-22 03:15:44.432] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\tsconfig.json:HEAD] already cached, not running linter
+[2025-08-22 03:15:44.432] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\vercel.json:HEAD] already cached, not running linter
+[2025-08-22 03:15:46.674] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 03:15:46.674] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71

@@ -1,80 +1,134 @@
+// server.js - CBTC Backend Excellence - Abel Coulibaly
 import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
 import morgan from 'morgan';
 import compression from 'compression';
-import process from 'node:process';
+import cookieParser from 'cookie-parser';
+import rateLimit from 'express-rate-limit';
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = Number(process.env.PORT) || 5000;
+const NODE_ENV = process.env.NODE_ENV || 'development';
+const isProd = NODE_ENV === 'production';
 
-// CORS - Configuration flexible et sécurisée
-const allowedOrigins = process.env.CORS_ORIGIN 
-  ? process.env.CORS_ORIGIN.split(',').map(origin => origin.trim())
-  : process.env.FRONTEND_URL 
-  ? [process.env.FRONTEND_URL]
-  : ['*'];
+// Pour Railway/NGINX proxies
+app.set('trust proxy', 1);
 
-app.use(cors({
-  origin: allowedOrigins.includes('*') ? true : allowedOrigins,
-  credentials: false,
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization']
-}));
+// CORS dynamique et sécurisé
+const rawOrigins =
+  process.env.ALLOWED_ORIGINS ||
+  process.env.CORS_ORIGIN ||
+  process.env.FRONTEND_URL ||
+  'http://localhost:3000';
+const allowedList = rawOrigins.split(',').map(s => s.trim());
+
+const corsOptions = {
+  origin: (origin, callback) => {
+    if (!origin) return callback(null, true); // Postman/cURL
+    if (origin.endsWith('.vercel.app')) return callback(null, true);
+    if (allowedList.includes(origin)) return callback(null, true);
+    return callback(new Error(`CORS: Origin not allowed → ${origin}`));
+  },
+  credentials: true,
+  methods: ['GET','POST','PUT','PATCH','DELETE','OPTIONS'],
+  allowedHeaders: ['Content-Type','Authorization','X-Requested-With','Accept','Origin'],
+  optionsSuccessStatus: 204
+};
+
+app.use(cors(corsOptions));
+app.options('*', cors(corsOptions));
+
+// Rate Limiting (seulement en prod)
+if (isProd) {
+  app.use(rateLimit({
+    windowMs: 15 * 60 * 1000, // 15 minutes
+    max: 100, // 100 requêtes/IP
+    standardHeaders: true,
+    legacyHeaders: false,
+    message: { error: 'Trop de requêtes, réessayez plus tard.' }
+  }));
+}
 
 // Sécurité et performances
-app.use(helmet({
-  contentSecurityPolicy: false,
-  crossOriginEmbedderPolicy: false
-}));
+app.use(helmet({ contentSecurityPolicy: false, crossOriginEmbedderPolicy: false }));
 app.use(compression());
-app.use(morgan(process.env.NODE_ENV === 'production' ? 'combined' : 'dev'));
+app.use(morgan(isProd ? 'combined' : 'dev'));
+app.use(cookieParser());
 
-// Parseurs JSON
+// Parseurs
 app.use(express.json({ limit: '10mb' }));
-app.use(express.urlencoded({ extended: true }));
+app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
-// Route de santé - Essentielle pour Railway
-app.get('/api/health', (req, res) => {
-  res.json({
+// Headers personnalisés
+app.use((req, res, next) => {
+  res.setHeader('X-CBTC-Version', '1.0.0');
+  res.setHeader('X-CBTC-Author', 'Abel Coulibaly');
+  next();
+});
+
+// Route de santé - Health Check
+app.get('/api/health', (_req, res) => {
+  res.status(200).json({
     status: 'success',
     service: 'cbtc-backend',
-    env: process.env.NODE_ENV || 'development',
+    env: NODE_ENV,
     uptime: Math.round(process.uptime()),
     timestamp: new Date().toISOString(),
     version: '1.0.0'
   });
 });
 
-// Route racine - Message d'accueil
-app.get('/', (req, res) => {
+// Racine - Accueil API
+app.get('/', (_req, res) => {
   res.json({
     message: 'CBTC API - Cobel Business Training Center',
     status: 'active',
     entrepreneur: 'Abel Coulibaly',
-    vision: 'L\'excellence entrepreneuriale à portée de tous'
+    vision: "L'excellence entrepreneuriale à portée de tous"
   });
 });
 
-// Gestion des erreurs
+// 404
 app.use('*', (req, res) => {
-  res.status(404).json({ 
+  res.status(404).json({
     error: 'Route non trouvée dans la symphonie CBTC',
     requested_path: req.originalUrl
   });
 });
 
-app.use((err, req, res, next) => {
-  console.error('Erreur:', err);
-  res.status(500).json({ 
-    error: 'Erreur interne du serveur CBTC'
+// Gestion globale des erreurs
+app.use((err, _req, res, _next) => {
+  console.error('❌ CBTC Error:', err.message);
+  const status = err.message?.startsWith('CORS') ? 403 : 500;
+  res.status(status).json({
+    error: status === 403 ? 'CORS Error' : 'Erreur interne du serveur CBTC',
+    message: NODE_ENV === 'development' ? err.message : undefined
   });
 });
 
-// Démarrage du serveur
-app.listen(PORT, '0.0.0.0', () => {
-  console.log(`🚀 CBTC Backend écoute sur le port ${PORT}`);
-  console.log(`🌍 Environment: ${process.env.NODE_ENV || 'development'}`);
-  console.log(`✨ La symphonie entrepreneuriale d'Abel commence !`);
+// Démarrage et arrêt gracieux
+const server = app.listen(PORT, '0.0.0.0', () => {
+  console.log('🚀 ═══════════════════════════════════════════════════════════════');
+  console.log(`🌟 SERVEUR CBTC EXCELLENCE DÉMARRÉ sur http://localhost:${PORT}`);
+  console.log(`🌍 Environnement: ${NODE_ENV}`);
+  console.log(`🔐 CORS autorisé: ${allowedList.join(', ')} + *.vercel.app`);
+  console.log('🚀 ═══════════════════════════════════════════════════════════════');
 });
+
+const gracefulShutdown = (signal) => {
+  console.log(`\n📴 Signal ${signal} reçu - Arrêt gracieux CBTC...`);
+  server.close((err) => {
+    if (err) {
+      console.error('❌ Erreur lors de l\'arrêt:', err);
+      process.exit(1);
+    }
+    console.log('✅ Serveur CBTC arrêté proprement');
+    process.exit(0);
+  });
+};
+process.on('SIGTERM', () => gracefulShutdown('SIGTERM'));
+process.on('SIGINT', () => gracefulShutdown('SIGINT'));
+
+export default app;

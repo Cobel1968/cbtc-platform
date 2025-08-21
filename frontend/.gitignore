@@ -1,0 +1,102 @@
+﻿# Next.js Build & Cache
+.next/
+out/
+build/
+dist/
+.cache/
+.parcel-cache/
+
+# Node.js Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment & Secrets
+.env*
+!.env.example
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel & Deployment
+.vercel/
+.netlify/
+
+# Database & Logs
+*.sqlite
+*.sqlite3
+*.log
+db.json
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# IDE & Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+.jest/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Temporary & Cache
+.tmp/
+temp/
+.sass-cache/
+lerna-debug.log*
+__tests__/coverage/
+
+﻿# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Production builds
+/build
+/.next/
+/out/
+
+# Environment variables
+.env*.local
+.env
+
+# Database
+backend/prisma/cbtc.db
+*.db
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# CBTC - Artefacts de build
+frontend/.next/
+frontend/.vercel/
+frontend/node_modules/
+2a97ce394b4c80989788ab8589d497ca3c8b0b71
+

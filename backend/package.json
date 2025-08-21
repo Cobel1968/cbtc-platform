@@ -1,24 +1,37 @@
 {
-  "name": "cbtc-backend",
+  "name": "abel-categories-api",
   "version": "1.0.0",
-  "private": true,
-  "type": "module",
+  "description": "API de gestion des catégories par Abel Coulibaly - Entrepreneur et Lecteur en gestion d'entreprise",
   "main": "server.js",
-  "engines": { "node": ">=18" },
+  "type": "module",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js"
+    "dev": "node --watch server.js",
+    "build": "npx prisma generate && npx prisma db push",
+    "deploy": "npx prisma migrate deploy && npx prisma generate",
+    "test": "echo \"Tests à venir pour Abel\" && exit 0"
   },
+  "keywords": ["api", "categories", "express", "nodejs", "abel-coulibaly"],
+  "author": "Abel Coulibaly <abel@example.com>",
+  "license": "MIT",
   "dependencies": {
-    "compression": "^1.7.4",
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2",
     "helmet": "^7.1.0",
     "morgan": "^1.10.0",
-    "stripe": "^14.0.0"
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "express-rate-limit": "^7.1.5",
+    "@prisma/client": "^5.7.1",
+    "prisma": "^5.7.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }

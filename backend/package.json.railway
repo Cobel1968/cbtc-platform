@@ -1,0 +1,34 @@
+{
+  "name": "cbtc-backend",
+  "version": "1.0.0",
+  "description": "CBTC Platform Backend API",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "build": "npx prisma generate",
+    "deploy": "npx prisma migrate deploy && npx prisma generate",
+    "postinstall": "npx prisma generate"
+  },
+  "keywords": ["api", "cbtc", "express", "nodejs", "education"],
+  "author": "Abel Coulibaly <abel@cobelbtc.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "express-rate-limit": "^7.1.5",
+    "@prisma/client": "^5.7.1",
+    "prisma": "^5.7.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

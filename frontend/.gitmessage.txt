@@ -1,0 +1,4 @@
+﻿# Template CBTC - Format: <type>(<scope>): <subject>
+# Types: feat, fix, docs, style, refactor, test, chore, build, ci
+# Scopes: auth, routing, ui, api, database, payment, analytics, seo
+# Ex: feat(auth): implement NextAuth.js authentication

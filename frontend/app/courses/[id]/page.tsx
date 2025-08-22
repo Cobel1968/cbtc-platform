@@ -1,4 +1,4 @@
-import { findCourseByIdOrSlug } from '../../lib/config';
+import { findCourseByIdOrSlug } from '@/lib/config';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 

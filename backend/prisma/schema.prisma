@@ -28,6 +28,30 @@ enum ProgramLevel {
   EXPERT
 }
 
+enum PaymentMethod {
+  WAVE_MOBILE
+  CASH_POS
+  BANK_TRANSFER
+  CREDIT_CARD
+  FREE
+}
+
+enum PaymentStatus {
+  PENDING
+  PROCESSING
+  COMPLETED
+  FAILED
+  REFUNDED
+  CANCELLED
+}
+
+enum TransactionType {
+  ENROLLMENT
+  SUBSCRIPTION
+  REFUND
+  PARTIAL_PAYMENT
+}
+
 // ========================================
 // MODÈLES PRINCIPAUX - Architecture CBTC
 // ========================================
@@ -56,6 +80,7 @@ model User {
   ieltsTestResults IELTSTestResult[]
   enrollments      Enrollment[]
   lessonProgress   LessonProgress[]
+  payments         Payment[]
 
   // Metadata - Traçabilité Excellence
   createdAt DateTime @default(now())
@@ -213,13 +238,16 @@ model Enrollment {
   progress    Float?    @default(0) // Pourcentage progression (0-100)
 
   // Payment Information - Gestion Financière
-  paymentStatus String? // "pending", "paid", "refunded"
+  paymentStatus PaymentStatus? @default(PENDING)
+  paymentMethod PaymentMethod?
   paymentAmount Float?
   paymentDate   DateTime?
+  paymentReference String? // Wave transaction ID or POS receipt number
 
   // Relations - Écosystème Apprenant
   user    User    @relation(fields: [userId], references: [id], onDelete: Cascade)
   program Program @relation(fields: [programId], references: [id], onDelete: Cascade)
+  payments Payment[]
 
   // Metadata - Traçabilité Inscription
   createdAt DateTime @default(now())
@@ -229,6 +257,68 @@ model Enrollment {
   @@index([userId])
   @@index([programId])
   @@index([paymentStatus])
+  @@index([paymentMethod])
+}
+
+model Payment {
+  id          String @id @default(cuid())
+  enrollmentId String?
+  userId      String
+  
+  // Payment Details - Transaction CBTC
+  amount          Float
+  currency        String         @default("XOF") // Franc CFA
+  paymentMethod   PaymentMethod
+  paymentStatus   PaymentStatus  @default(PENDING)
+  transactionType TransactionType @default(ENROLLMENT)
+  
+  // Wave Mobile Payment - Integration Côte d'Ivoire
+  waveTransactionId String? // ID transaction Wave
+  wavePhoneNumber   String? // +2250555007884 (CBTC)
+  waveCustomerPhone String? // Numéro client
+  waveReference     String? // Référence Wave
+  
+  // POS Cash Payment - Paiement Comptoir CBTC
+  posReceiptNumber  String? // Numéro reçu POS
+  posTerminalId     String? // ID terminal POS CBTC
+  posCashierName    String? // Nom caissier
+  posLocation       String? // Localisation paiement
+  
+  // Bank Transfer - Virement Bancaire
+  bankReference     String? // Référence virement
+  bankName          String? // Nom banque
+  
+  // Payment Processing - Traitement
+  processedAt       DateTime?
+  confirmedAt       DateTime?
+  failureReason     String?
+  refundedAt        DateTime?
+  refundReason      String?
+  
+  // Financial Management - Gestion Comptable
+  feeAmount         Float?   @default(0) // Frais transaction
+  netAmount         Float? // Montant net reçu
+  taxAmount         Float?   @default(0) // Taxes
+  
+  // Receipt and Documentation - Reçus CBTC
+  receiptUrl        String? // URL reçu PDF
+  invoiceNumber     String? // Numéro facture
+  
+  // Relations - Écosystème Financier
+  user       User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  enrollment Enrollment? @relation(fields: [enrollmentId], references: [id])
+  
+  // Metadata - Historique Financier
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  @@index([userId])
+  @@index([paymentStatus])
+  @@index([paymentMethod])
+  @@index([transactionType])
+  @@index([waveTransactionId])
+  @@index([posReceiptNumber])
+  @@index([createdAt])
 }
 
 model LessonProgress {

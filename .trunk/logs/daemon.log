@@ -1,400 +1,95 @@
-[2025-08-22 03:15:18.583] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\app\icon.svg:HEAD] already cached, not running linter
-[2025-08-22 03:15:18.698] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\app\layout.tsx:HEAD] already cached, not running linter
-[2025-08-22 03:15:18.699] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\app\login\page.tsx:HEAD] already cached, not running linter
-[2025-08-22 03:15:18.699] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\app\page.tsx:HEAD] already cached, not running linter
-[2025-08-22 03:15:18.700] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\app\register\page.tsx:HEAD] already cached, not running linter
-[2025-08-22 03:15:18.701] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\components\Header.jsx:HEAD] already cached, not running linter
-[2025-08-22 03:15:18.701] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\components\Logo.tsx:HEAD] already cached, not running linter
-[2025-08-22 03:15:18.701] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\components\header.tsx:HEAD] already cached, not running linter
-[2025-08-22 03:15:18.702] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\lib\api.ts:HEAD] already cached, not running linter
-[2025-08-22 03:15:18.702] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\lib\config.ts:HEAD] already cached, not running linter
-[2025-08-22 03:15:18.703] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\new commit:HEAD] already cached, not running linter
-[2025-08-22 03:15:18.703] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\next.config.mjs:HEAD] already cached, not running linter
-[2025-08-22 03:15:18.704] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\package-lock.json:HEAD] already cached, not running linter
-[2025-08-22 03:15:18.704] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\package.json:HEAD] already cached, not running linter
-[2025-08-22 03:15:18.704] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\postcss.config.js:HEAD] already cached, not running linter
-[2025-08-22 03:15:18.705] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\public\logo-cbtc.svg:HEAD] already cached, not running linter
-[2025-08-22 03:15:18.705] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\simple readme:HEAD] already cached, not running linter
-[2025-08-22 03:15:18.706] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\tailwind.config.js:HEAD] already cached, not running linter
-[2025-08-22 03:15:18.706] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\frontend\tsconfig.json:HEAD] already cached, not running linter
-[2025-08-22 03:15:18.706] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\get-docker.sh:HEAD] already cached, not running linter
-[2025-08-22 03:15:18.707] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\git-filter-repo.txt:HEAD] already cached, not running linter
-[2025-08-22 03:15:18.707] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\lib\api.ts:HEAD] already cached, not running linter
-[2025-08-22 03:15:18.708] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\next.config.mjs:HEAD] already cached, not running linter
-[2025-08-22 03:15:18.708] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\package-lock.json:HEAD] already cached, not running linter
-[2025-08-22 03:15:18.708] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\package.json:HEAD] already cached, not running linter
-[2025-08-22 03:15:18.709] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\postcss.config.js:HEAD] already cached, not running linter
-[2025-08-22 03:15:18.709] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\public\logo-cbtc.svg:HEAD] already cached, not running linter
-[2025-08-22 03:15:18.710] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\tailwind.config.js:HEAD] already cached, not running linter
-[2025-08-22 03:15:18.710] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\tsconfig.json:HEAD] already cached, not running linter
-[2025-08-22 03:15:18.711] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\vercel.json:HEAD] already cached, not running linter
-[2025-08-22 03:15:20.081] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:15:20.081] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:15:33.648] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:15:33.648] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:15:34.169] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.bat // 3:The system cannot find the path specified.
-[2025-08-22 03:15:34.170] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go // 3:The system cannot find the path specified.
-[2025-08-22 03:15:34.170] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.exe // 3:The system cannot find the path specified.
-[2025-08-22 03:15:34.175] [global] [info] [cache.cc:974] [monitor] [hadolint:lint:frontend\Dockerfile:HEAD] running linter (cache-key:6119900264c4d39c2533d852a279e0e4)
-[2025-08-22 03:15:34.175] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.bat // 3:The system cannot find the path specified.
-[2025-08-22 03:15:34.175] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go // 3:The system cannot find the path specified.
-[2025-08-22 03:15:34.175] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.exe // 3:The system cannot find the path specified.
-[2025-08-22 03:15:34.179] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.bat // 3:The system cannot find the path specified.
-[2025-08-22 03:15:34.180] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go // 3:The system cannot find the path specified.
-[2025-08-22 03:15:34.180] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\shfmt\3.6.0-f249f329eb7123e0a5dd8a13804a150e/bin\go.exe // 3:The system cannot find the path specified.
-[2025-08-22 03:15:34.193] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.env.example:HEAD] already cached, not running linter
-[2025-08-22 03:15:34.194] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitignore:HEAD] already cached, not running linter
-[2025-08-22 03:15:34.195] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitignore.backup.20250818-010710:HEAD] already cached, not running linter
-[2025-08-22 03:15:34.197] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitmessage.txt:HEAD] already cached, not running linter
-[2025-08-22 03:15:34.197] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\Dockerfile:HEAD] running linter (cache-key:f42ec0629593bd470a85af27f7be2ad4)
-[2025-08-22 03:15:34.198] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\My Powershell Profile:HEAD] already cached, not running linter
-[2025-08-22 03:15:34.198] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\app\globals.css:HEAD] running linter (cache-key:722dd2fe5c5bda4b0a94a32ab8718f1d)
-[2025-08-22 03:15:34.198] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\app\login\page.tsx:HEAD] running linter (cache-key:e62216b7bc5372364661e2296e91b63c)
-[2025-08-22 03:15:34.199] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\app\page.tsx:HEAD] running linter (cache-key:7c5085eef37d7d27f0dca36d47f99c4c)
-[2025-08-22 03:15:34.199] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\app\register\page.tsx:HEAD] running linter (cache-key:0cac3a3bfc46442102f09db5e5cb4d85)
-[2025-08-22 03:15:34.199] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\components\Logo.tsx:HEAD] running linter (cache-key:296cc3475907dbb5a6ffc193980b7b81)
-[2025-08-22 03:15:34.201] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\env.example:HEAD] already cached, not running linter
-[2025-08-22 03:15:34.204] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\env.local.example:HEAD] already cached, not running linter
-[2025-08-22 03:15:34.206] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\get-docker.sh:HEAD] already cached, not running linter
-[2025-08-22 03:15:34.208] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\git-filter-repo.txt:HEAD] already cached, not running linter
-[2025-08-22 03:15:34.208] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\lib\api.ts:HEAD] running linter (cache-key:b905b015d114a64f2e76f76f16f47793)
-[2025-08-22 03:15:34.209] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\next.config.mjs:HEAD] running linter (cache-key:03c9a1546bce7f6547eba7bee78810ca)
-[2025-08-22 03:15:34.209] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\package-lock.json:HEAD] running linter (cache-key:3155982e125b4ea6df3f67b506b1d167)
-[2025-08-22 03:15:34.209] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\package.json:HEAD] running linter (cache-key:9b5dfb717c1dc2e60e6e9c1d25e122d2)
-[2025-08-22 03:15:34.209] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\postcss.config.js:HEAD] running linter (cache-key:9b9654976ba11f947f7b15cc8a8ec41b)
-[2025-08-22 03:15:34.209] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\public\logo-cbtc.svg:HEAD] running linter (cache-key:41d37e9c7e13ac19a553f52fb312a6e9)
-[2025-08-22 03:15:34.209] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\tailwind.config.js:HEAD] running linter (cache-key:278bab1f4946c8bd119f8adea9973014)
-[2025-08-22 03:15:34.210] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\tsconfig.json:HEAD] running linter (cache-key:7a2f55b6366d49487d099d129e70abb4)
-[2025-08-22 03:15:34.211] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\vercel.json:HEAD] already cached, not running linter
-[2025-08-22 03:15:35.128] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:15:35.128] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:15:35.917] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.env.example:HEAD] already cached, not running linter
-[2025-08-22 03:15:35.919] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitignore:HEAD] already cached, not running linter
-[2025-08-22 03:15:35.921] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitignore.backup.20250818-010710:HEAD] already cached, not running linter
-[2025-08-22 03:15:35.922] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitmessage.txt:HEAD] already cached, not running linter
-[2025-08-22 03:15:35.923] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\Dockerfile:HEAD] linting in progress, waiting (cache-key:f42ec0629593bd470a85af27f7be2ad4)
-[2025-08-22 03:15:35.924] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\My Powershell Profile:HEAD] already cached, not running linter
-[2025-08-22 03:15:35.924] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\app\globals.css:HEAD] linting in progress, waiting (cache-key:722dd2fe5c5bda4b0a94a32ab8718f1d)
-[2025-08-22 03:15:35.924] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\app\login\page.tsx:HEAD] linting in progress, waiting (cache-key:e62216b7bc5372364661e2296e91b63c)
-[2025-08-22 03:15:35.925] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\app\page.tsx:HEAD] linting in progress, waiting (cache-key:7c5085eef37d7d27f0dca36d47f99c4c)
-[2025-08-22 03:15:35.925] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\app\register\page.tsx:HEAD] linting in progress, waiting (cache-key:0cac3a3bfc46442102f09db5e5cb4d85)
-[2025-08-22 03:15:35.925] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\components\Logo.tsx:HEAD] linting in progress, waiting (cache-key:296cc3475907dbb5a6ffc193980b7b81)
-[2025-08-22 03:15:35.926] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\env.example:HEAD] already cached, not running linter
-[2025-08-22 03:15:35.927] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\env.local.example:HEAD] already cached, not running linter
-[2025-08-22 03:15:35.929] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\git-filter-repo.txt:HEAD] already cached, not running linter
-[2025-08-22 03:15:35.929] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\lib\api.ts:HEAD] linting in progress, waiting (cache-key:b905b015d114a64f2e76f76f16f47793)
-[2025-08-22 03:15:35.929] [global] [info] [cache.cc:974] [monitor] [hadolint:lint:frontend\Dockerfile:HEAD] running linter (cache-key:6119900264c4d39c2533d852a279e0e4)
-[2025-08-22 03:15:35.930] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\next.config.mjs:HEAD] linting in progress, waiting (cache-key:03c9a1546bce7f6547eba7bee78810ca)
-[2025-08-22 03:15:35.930] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\package-lock.json:HEAD] linting in progress, waiting (cache-key:3155982e125b4ea6df3f67b506b1d167)
-[2025-08-22 03:15:35.931] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\package.json:HEAD] linting in progress, waiting (cache-key:9b5dfb717c1dc2e60e6e9c1d25e122d2)
-[2025-08-22 03:15:35.931] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\postcss.config.js:HEAD] linting in progress, waiting (cache-key:9b9654976ba11f947f7b15cc8a8ec41b)
-[2025-08-22 03:15:35.931] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\public\logo-cbtc.svg:HEAD] linting in progress, waiting (cache-key:41d37e9c7e13ac19a553f52fb312a6e9)
-[2025-08-22 03:15:35.931] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\tailwind.config.js:HEAD] linting in progress, waiting (cache-key:278bab1f4946c8bd119f8adea9973014)
-[2025-08-22 03:15:35.932] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\tsconfig.json:HEAD] linting in progress, waiting (cache-key:7a2f55b6366d49487d099d129e70abb4)
-[2025-08-22 03:15:35.933] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\vercel.json:HEAD] already cached, not running linter
-[2025-08-22 03:15:36.739] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:15:36.739] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:15:37.844] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:15:37.844] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:15:37.907] [global] [info] [cache.cc:974] [monitor] [hadolint:lint:frontend\Dockerfile:HEAD] running linter (cache-key:6119900264c4d39c2533d852a279e0e4)
-[2025-08-22 03:15:38.575] [global] [info] [cache.cc:974] [monitor] [hadolint:lint:frontend\Dockerfile:HEAD] running linter (cache-key:6119900264c4d39c2533d852a279e0e4)
-[2025-08-22 03:15:38.592] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.env.example:HEAD] already cached, not running linter
-[2025-08-22 03:15:38.593] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitignore:HEAD] already cached, not running linter
-[2025-08-22 03:15:38.594] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitignore.backup.20250818-010710:HEAD] already cached, not running linter
-[2025-08-22 03:15:38.594] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitmessage.txt:HEAD] already cached, not running linter
-[2025-08-22 03:15:38.595] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\Dockerfile:HEAD] linting in progress, waiting (cache-key:f42ec0629593bd470a85af27f7be2ad4)
-[2025-08-22 03:15:38.595] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\app\globals.css:HEAD] linting in progress, waiting (cache-key:722dd2fe5c5bda4b0a94a32ab8718f1d)
-[2025-08-22 03:15:38.595] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\app\login\page.tsx:HEAD] linting in progress, waiting (cache-key:e62216b7bc5372364661e2296e91b63c)
-[2025-08-22 03:15:38.595] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\app\page.tsx:HEAD] linting in progress, waiting (cache-key:7c5085eef37d7d27f0dca36d47f99c4c)
-[2025-08-22 03:15:38.595] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\app\register\page.tsx:HEAD] linting in progress, waiting (cache-key:0cac3a3bfc46442102f09db5e5cb4d85)
-[2025-08-22 03:15:38.595] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\components\Logo.tsx:HEAD] linting in progress, waiting (cache-key:296cc3475907dbb5a6ffc193980b7b81)
-[2025-08-22 03:15:38.596] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\env.example:HEAD] already cached, not running linter
-[2025-08-22 03:15:38.597] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\env.local.example:HEAD] already cached, not running linter
-[2025-08-22 03:15:38.598] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\lib\api.ts:HEAD] linting in progress, waiting (cache-key:b905b015d114a64f2e76f76f16f47793)
-[2025-08-22 03:15:38.598] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\next.config.mjs:HEAD] linting in progress, waiting (cache-key:03c9a1546bce7f6547eba7bee78810ca)
-[2025-08-22 03:15:38.598] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\package-lock.json:HEAD] linting in progress, waiting (cache-key:3155982e125b4ea6df3f67b506b1d167)
-[2025-08-22 03:15:38.598] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\package.json:HEAD] linting in progress, waiting (cache-key:9b5dfb717c1dc2e60e6e9c1d25e122d2)
-[2025-08-22 03:15:38.598] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\postcss.config.js:HEAD] linting in progress, waiting (cache-key:9b9654976ba11f947f7b15cc8a8ec41b)
-[2025-08-22 03:15:38.598] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\public\logo-cbtc.svg:HEAD] linting in progress, waiting (cache-key:41d37e9c7e13ac19a553f52fb312a6e9)
-[2025-08-22 03:15:38.598] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\tailwind.config.js:HEAD] linting in progress, waiting (cache-key:278bab1f4946c8bd119f8adea9973014)
-[2025-08-22 03:15:38.598] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\tsconfig.json:HEAD] linting in progress, waiting (cache-key:7a2f55b6366d49487d099d129e70abb4)
-[2025-08-22 03:15:38.599] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\vercel.json:HEAD] already cached, not running linter
-[2025-08-22 03:15:41.200] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:15:41.201] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:15:42.354] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:15:42.354] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:15:42.378] [global] [info] [cache.cc:974] [monitor] [hadolint:lint:frontend\Dockerfile:HEAD] running linter (cache-key:6119900264c4d39c2533d852a279e0e4)
-[2025-08-22 03:15:42.492] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.env.example:HEAD] already cached, not running linter
-[2025-08-22 03:15:42.494] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitignore:HEAD] already cached, not running linter
-[2025-08-22 03:15:42.495] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitignore.backup.20250818-010710:HEAD] already cached, not running linter
-[2025-08-22 03:15:42.497] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitmessage.txt:HEAD] already cached, not running linter
-[2025-08-22 03:15:42.497] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\Dockerfile:HEAD] linting in progress, waiting (cache-key:f42ec0629593bd470a85af27f7be2ad4)
-[2025-08-22 03:15:42.498] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\app\globals.css:HEAD] linting in progress, waiting (cache-key:722dd2fe5c5bda4b0a94a32ab8718f1d)
-[2025-08-22 03:15:42.498] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\app\login\page.tsx:HEAD] linting in progress, waiting (cache-key:e62216b7bc5372364661e2296e91b63c)
-[2025-08-22 03:15:42.498] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\app\page.tsx:HEAD] linting in progress, waiting (cache-key:7c5085eef37d7d27f0dca36d47f99c4c)
-[2025-08-22 03:15:42.498] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\app\register\page.tsx:HEAD] linting in progress, waiting (cache-key:0cac3a3bfc46442102f09db5e5cb4d85)
-[2025-08-22 03:15:42.498] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\components\Logo.tsx:HEAD] linting in progress, waiting (cache-key:296cc3475907dbb5a6ffc193980b7b81)
-[2025-08-22 03:15:42.500] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\env.example:HEAD] already cached, not running linter
-[2025-08-22 03:15:42.501] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\env.local.example:HEAD] already cached, not running linter
-[2025-08-22 03:15:42.501] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\lib\api.ts:HEAD] linting in progress, waiting (cache-key:b905b015d114a64f2e76f76f16f47793)
-[2025-08-22 03:15:42.502] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\next.config.mjs:HEAD] linting in progress, waiting (cache-key:03c9a1546bce7f6547eba7bee78810ca)
-[2025-08-22 03:15:42.502] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\package-lock.json:HEAD] linting in progress, waiting (cache-key:3155982e125b4ea6df3f67b506b1d167)
-[2025-08-22 03:15:42.502] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\package.json:HEAD] linting in progress, waiting (cache-key:9b5dfb717c1dc2e60e6e9c1d25e122d2)
-[2025-08-22 03:15:42.502] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\postcss.config.js:HEAD] linting in progress, waiting (cache-key:9b9654976ba11f947f7b15cc8a8ec41b)
-[2025-08-22 03:15:42.502] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\public\logo-cbtc.svg:HEAD] linting in progress, waiting (cache-key:41d37e9c7e13ac19a553f52fb312a6e9)
-[2025-08-22 03:15:42.502] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\tailwind.config.js:HEAD] linting in progress, waiting (cache-key:278bab1f4946c8bd119f8adea9973014)
-[2025-08-22 03:15:42.503] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:frontend\tsconfig.json:HEAD] linting in progress, waiting (cache-key:7a2f55b6366d49487d099d129e70abb4)
-[2025-08-22 03:15:42.504] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\vercel.json:HEAD] already cached, not running linter
-[2025-08-22 03:15:44.200] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.bat // 3:The system cannot find the path specified.
-[2025-08-22 03:15:44.200] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3 // 3:The system cannot find the path specified.
-[2025-08-22 03:15:44.200] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.exe // 3:The system cannot find the path specified.
-[2025-08-22 03:15:44.200] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.bat // 3:The system cannot find the path specified.
-[2025-08-22 03:15:44.200] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3 // 3:The system cannot find the path specified.
-[2025-08-22 03:15:44.200] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.exe // 3:The system cannot find the path specified.
-[2025-08-22 03:15:44.200] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:The system cannot find the path specified.
-[2025-08-22 03:15:44.200] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:The system cannot find the path specified.
-[2025-08-22 03:15:44.201] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:The system cannot find the path specified.
-[2025-08-22 03:15:44.355] [global] [info] [cache.cc:1117] [monitor] [trufflehog:lint:frontend\.env.example... (24 files):HEAD] Linter ran in 10076ms
-[2025-08-22 03:15:44.422] [global] [info] [cache.cc:974] [monitor] [hadolint:lint:frontend\Dockerfile:HEAD] running linter (cache-key:6119900264c4d39c2533d852a279e0e4)
-[2025-08-22 03:15:44.422] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.env.example:HEAD] already cached, not running linter
-[2025-08-22 03:15:44.422] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitignore:HEAD] already cached, not running linter
-[2025-08-22 03:15:44.423] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitignore.backup.20250818-010710:HEAD] already cached, not running linter
-[2025-08-22 03:15:44.423] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitmessage.txt:HEAD] already cached, not running linter
-[2025-08-22 03:15:44.424] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\Dockerfile:HEAD] already cached, not running linter
-[2025-08-22 03:15:44.424] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\app\globals.css:HEAD] already cached, not running linter
-[2025-08-22 03:15:44.425] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\app\login\page.tsx:HEAD] already cached, not running linter
-[2025-08-22 03:15:44.425] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\app\page.tsx:HEAD] already cached, not running linter
-[2025-08-22 03:15:44.426] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\app\register\page.tsx:HEAD] already cached, not running linter
-[2025-08-22 03:15:44.427] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\components\Logo.tsx:HEAD] already cached, not running linter
-[2025-08-22 03:15:44.427] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\env.example:HEAD] already cached, not running linter
-[2025-08-22 03:15:44.428] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\env.local.example:HEAD] already cached, not running linter
-[2025-08-22 03:15:44.428] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\lib\api.ts:HEAD] already cached, not running linter
-[2025-08-22 03:15:44.428] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\next.config.mjs:HEAD] already cached, not running linter
-[2025-08-22 03:15:44.429] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\package-lock.json:HEAD] already cached, not running linter
-[2025-08-22 03:15:44.429] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\package.json:HEAD] already cached, not running linter
-[2025-08-22 03:15:44.430] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\postcss.config.js:HEAD] already cached, not running linter
-[2025-08-22 03:15:44.431] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\public\logo-cbtc.svg:HEAD] already cached, not running linter
-[2025-08-22 03:15:44.431] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\tailwind.config.js:HEAD] already cached, not running linter
-[2025-08-22 03:15:44.432] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\tsconfig.json:HEAD] already cached, not running linter
-[2025-08-22 03:15:44.432] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\vercel.json:HEAD] already cached, not running linter
-[2025-08-22 03:15:46.674] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:15:46.674] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:34:15.002] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:34:15.002] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:34:15.270] [global] [info] [cache.cc:974] [monitor] [hadolint:lint:frontend\Dockerfile:HEAD] running linter (cache-key:6119900264c4d39c2533d852a279e0e4)
-[2025-08-22 03:34:15.278] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\controllers\categoryController.js:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.279] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:backend\env.example:HEAD], removing from cache
-[2025-08-22 03:34:15.279] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:backend\env.example:HEAD] running linter (cache-key:43eb83c11b5e8aaa07be995332ccf918)
-[2025-08-22 03:34:15.280] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\index.js:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.281] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\middleware\auth.js:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.282] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\middleware\validation.js:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.283] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\nixpacks.toml:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.283] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\package-lock.json:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.283] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:backend\package.json:HEAD], removing from cache
-[2025-08-22 03:34:15.284] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:backend\package.json:HEAD] running linter (cache-key:c177f5397114e79c8363d553384e5a60)
-[2025-08-22 03:34:15.284] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\package.json.railway:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.285] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\prisma\prisma\seed.ts:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.285] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:backend\prisma\schema.prisma:HEAD], removing from cache
-[2025-08-22 03:34:15.285] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:backend\prisma\schema.prisma:HEAD] running linter (cache-key:d8662eacecf86b3d5c972de817e0d456)
-[2025-08-22 03:34:15.286] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\prisma\seed.ts:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.287] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\railway.toml:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.287] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\routes\categories.js:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.288] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\server.js:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.288] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\src\index.ts:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.289] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\src\middleware\ApiResponse.js:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.289] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\src\middleware\auth.ts:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.289] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\src\middleware\validation.js:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.290] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\src\routes\asyncHandler.js:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.290] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\src\routes\categories.js:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.291] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\src\routes\categories.ts:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.291] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\src\routes\categoryController.js:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.291] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\src\routes\ielts.ts:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.292] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\src\routes\lessons.ts:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.292] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\src\routes\programs.ts:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.293] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\src\routes\users.ts:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.295] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\src\services\aiClients.ts:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.295] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\tsconfig.json:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.296] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\utils\ApiResponse.js:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.297] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\utils\asyncHandler.js.js:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.298] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.env.example:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.298] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitignore:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.299] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\.gitmessage.txt:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.300] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\Dockerfile:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.300] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\app\globals.css:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.301] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\app\login\page.tsx:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.301] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\app\page.tsx:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.302] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\app\register\page.tsx:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.303] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\components\Logo.tsx:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.303] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\env.example:HEAD], removing from cache
-[2025-08-22 03:34:15.303] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\env.example:HEAD] running linter (cache-key:c590fc743c5ec3b4119498b69f3c67fe)
-[2025-08-22 03:34:15.304] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\env.local.example:HEAD], removing from cache
-[2025-08-22 03:34:15.304] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\env.local.example:HEAD] running linter (cache-key:b65df0cda799e7208486307a2ad24449)
-[2025-08-22 03:34:15.304] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\lib\api.ts:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.305] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\next.config.mjs:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.305] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\package-lock.json:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.306] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\package.json:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.306] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\postcss.config.js:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.306] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\public\logo-cbtc.svg:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.307] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\tailwind.config.js:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.307] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\tsconfig.json:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.308] [global] [info] [cache.cc:939] Unable to deserialize [monitor] [trufflehog:lint:frontend\vercel.json:HEAD], removing from cache
-[2025-08-22 03:34:15.308] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\vercel.json:HEAD] running linter (cache-key:10354b3b9c3141ffba9af89ba5e9d1d9)
-[2025-08-22 03:34:15.513] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:34:15.513] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:34:15.683] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\prisma\prisma\seed.ts:HEAD] already cached, not running linter
-[2025-08-22 03:34:15.683] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:backend\prisma\schema.prisma:HEAD] linting in progress, waiting (cache-key:d8662eacecf86b3d5c972de817e0d456)
-[2025-08-22 03:34:15.684] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:backend\prisma\seed.ts:HEAD] already cached, not running linter
-[2025-08-22 03:34:17.003] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:34:17.003] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:34:18.953] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.bat // 3:The system cannot find the path specified.
-[2025-08-22 03:34:18.953] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3 // 3:The system cannot find the path specified.
-[2025-08-22 03:34:18.953] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.exe // 3:The system cannot find the path specified.
-[2025-08-22 03:34:18.953] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.bat // 3:The system cannot find the path specified.
-[2025-08-22 03:34:18.953] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3 // 3:The system cannot find the path specified.
-[2025-08-22 03:34:18.953] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.exe // 3:The system cannot find the path specified.
-[2025-08-22 03:34:18.953] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:The system cannot find the path specified.
-[2025-08-22 03:34:18.953] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:The system cannot find the path specified.
-[2025-08-22 03:34:18.953] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:The system cannot find the path specified.
-[2025-08-22 03:34:19.156] [global] [info] [cache.cc:1117] [monitor] [trufflehog:lint:backend\controllers\categoryController.js... (51 files):HEAD] Linter ran in 3834ms
-[2025-08-22 03:34:33.990] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:34:33.990] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:34:34.211] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:DEPLOYMENT_STATUS.md:HEAD] running linter (cache-key:92a4ee3ff4506e423dd7cf6a6e6faba5)
-[2025-08-22 03:34:36.409] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:34:36.409] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:34:38.832] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.bat // 3:The system cannot find the path specified.
-[2025-08-22 03:34:38.832] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3 // 3:The system cannot find the path specified.
-[2025-08-22 03:34:38.832] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.exe // 3:The system cannot find the path specified.
-[2025-08-22 03:34:38.832] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.bat // 3:The system cannot find the path specified.
-[2025-08-22 03:34:38.832] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3 // 3:The system cannot find the path specified.
-[2025-08-22 03:34:38.832] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.exe // 3:The system cannot find the path specified.
-[2025-08-22 03:34:38.832] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:The system cannot find the path specified.
-[2025-08-22 03:34:38.832] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:The system cannot find the path specified.
-[2025-08-22 03:34:38.833] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:The system cannot find the path specified.
-[2025-08-22 03:34:38.960] [global] [info] [cache.cc:1117] [monitor] [trufflehog:lint:DEPLOYMENT_STATUS.md:HEAD] Linter ran in 4741ms
-[2025-08-22 03:34:44.166] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:34:44.166] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:34:44.230] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:DEPLOYMENT_STATUS.md:HEAD] already cached, not running linter
-[2025-08-22 03:39:53.880] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:39:53.880] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:39:58.176] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:39:58.176] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:40:14.309] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:40:14.309] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:40:15.201] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:40:15.201] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:40:16.090] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:40:16.090] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:40:17.001] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:40:17.001] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:40:27.558] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:40:27.558] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:40:33.044] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:40:33.044] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:40:33.922] [global] [info] [git_source_control.cc:517] Computing merge base between 2a97ce394b4c80989788ab8589d497ca3c8b0b71 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:40:33.922] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:41:02.575] [global] [info] [git_source_control.cc:517] Computing merge base between ce5272224d76dcb1834d0c60daab1f7e29a9d482 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:41:02.597] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:41:03.806] [global] [info] [git_source_control.cc:517] Computing merge base between ce5272224d76dcb1834d0c60daab1f7e29a9d482 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:41:03.806] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:41:33.600] [global] [info] [git_source_control.cc:517] Computing merge base between ce5272224d76dcb1834d0c60daab1f7e29a9d482 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:41:33.601] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:44:03.237] [global] [info] [git_source_control.cc:517] Computing merge base between ce5272224d76dcb1834d0c60daab1f7e29a9d482 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:44:03.239] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:44:05.406] [global] [info] [git_source_control.cc:517] Computing merge base between ce5272224d76dcb1834d0c60daab1f7e29a9d482 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:44:05.408] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:47:52.752] [global] [info] [git_source_control.cc:517] Computing merge base between ce5272224d76dcb1834d0c60daab1f7e29a9d482 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:47:52.753] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:48:13.896] [global] [info] [git_source_control.cc:517] Computing merge base between ce5272224d76dcb1834d0c60daab1f7e29a9d482 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:48:13.898] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:48:14.110] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:CLEANUP_COMPLETE.md:HEAD] running linter (cache-key:65aac0ada9861e0c8d97804a7413e586)
-[2025-08-22 03:48:15.835] [global] [info] [git_source_control.cc:517] Computing merge base between ce5272224d76dcb1834d0c60daab1f7e29a9d482 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:48:15.836] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:48:16.178] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:CLEANUP_COMPLETE.md:HEAD] running linter (cache-key:52b579a52cbdff31d2335946a72de373)
-[2025-08-22 03:48:17.649] [global] [info] [git_source_control.cc:517] Computing merge base between ce5272224d76dcb1834d0c60daab1f7e29a9d482 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:48:17.650] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:48:25.062] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.bat // 3:The system cannot find the path specified.
-[2025-08-22 03:48:25.062] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3 // 3:The system cannot find the path specified.
-[2025-08-22 03:48:25.062] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.exe // 3:The system cannot find the path specified.
-[2025-08-22 03:48:25.062] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.bat // 3:The system cannot find the path specified.
-[2025-08-22 03:48:25.062] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3 // 3:The system cannot find the path specified.
-[2025-08-22 03:48:25.062] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.exe // 3:The system cannot find the path specified.
-[2025-08-22 03:48:25.062] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:The system cannot find the path specified.
-[2025-08-22 03:48:25.062] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:The system cannot find the path specified.
-[2025-08-22 03:48:25.063] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:The system cannot find the path specified.
-[2025-08-22 03:48:25.260] [global] [info] [cache.cc:1117] [monitor] [trufflehog:lint:CLEANUP_COMPLETE.md:HEAD] Linter ran in 9065ms
-[2025-08-22 03:48:28.354] [global] [info] [git_source_control.cc:517] Computing merge base between ce5272224d76dcb1834d0c60daab1f7e29a9d482 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:48:28.355] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 03:48:28.505] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:CLEANUP_COMPLETE.md:HEAD] already cached, not running linter
-[2025-08-22 03:58:14.638] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
-[2025-08-22 03:58:15.870] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
-[2025-08-22 03:58:15.876] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
-[2025-08-22 03:58:15.880] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
-[2025-08-22 03:58:17.373] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.25.0 version: prod
-[2025-08-22 03:58:17.947] [global] [info] [release.cc:131] Retrieved 17 linter-version pairs from ReleaseVersionService
-[2025-08-22 03:58:17.952] [global] [warning] [release.cc:44] Package is not a github url mvdan.cc/sh/v3/cmd/shfmt
-[2025-08-22 03:58:17.953] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:The system cannot find the path specified.
-[2025-08-22 03:58:17.953] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:The system cannot find the path specified.
-[2025-08-22 03:58:17.953] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:The system cannot find the path specified.
-[2025-08-22 03:58:17.953] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:The system cannot find the path specified.
-[2025-08-22 03:58:17.953] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:The system cannot find the path specified.
-[2025-08-22 03:58:17.953] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:The system cannot find the path specified.
-[2025-08-22 03:58:21.681] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.bat // 3:The system cannot find the path specified.
-[2025-08-22 03:58:21.681] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm // 3:The system cannot find the path specified.
-[2025-08-22 03:58:21.681] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\node\22.16.0-12da8a4c27b144aedaf7d975e067667c/bin\npm.exe // 3:The system cannot find the path specified.
-[2025-08-22 03:58:23.422] [global] [info] [linter.cc:1791] Found config in plugin repo at C:\Users\SURFACE\AppData\Local\trunk\plugins\https---github-com-trunk-io-plugins\v1.7.2-4ebadccd80b22638\linters\markdownlint\.markdownlint.yaml
-[2025-08-22 03:58:31.036] [global] [info] [linter.cc:1791] Found config in plugin repo at C:\Users\SURFACE\AppData\Local\trunk\plugins\https---github-com-trunk-io-plugins\v1.7.2-4ebadccd80b22638\linters\isort\.isort.cfg
-[2025-08-22 03:58:38.284] [global] [info] [linter.cc:1791] Found config in plugin repo at C:\Users\SURFACE\AppData\Local\trunk\plugins\https---github-com-trunk-io-plugins\v1.7.2-4ebadccd80b22638\linters\yamllint\.yamllint.yaml
-[2025-08-22 03:58:42.887] [global] [info] [linter.cc:1791] Found config in plugin repo at C:\Users\SURFACE\AppData\Local\trunk\plugins\https---github-com-trunk-io-plugins\v1.7.2-4ebadccd80b22638\linters\ruff\ruff.toml
-[2025-08-22 03:59:06.551] [global] [info] [grpc.cc:26] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
-[2025-08-22 03:59:07.123] [global] [info] [notification_manager.cc:37] Writing to C:\Users\SURFACE\cbtc_ecosystem\cbtc-platform\.trunk\notifications\trunk-upgrade.yaml
-[2025-08-22 04:05:44.737] [global] [info] [git_source_control.cc:517] Computing merge base between ce5272224d76dcb1834d0c60daab1f7e29a9d482 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 04:05:44.739] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 04:05:45.205] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\lib\config.ts:HEAD] running linter (cache-key:7ef90c1ee4cfa0f07364e3c981590070)
-[2025-08-22 04:05:47.110] [global] [info] [git_source_control.cc:517] Computing merge base between ce5272224d76dcb1834d0c60daab1f7e29a9d482 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 04:05:47.110] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 04:05:53.830] [global] [info] [git_source_control.cc:517] Computing merge base between ce5272224d76dcb1834d0c60daab1f7e29a9d482 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 04:05:53.832] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 04:05:54.028] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\lib\api.ts:HEAD] running linter (cache-key:27d4e90b67ea7b2d3ff4d4115d79347d)
-[2025-08-22 04:05:58.727] [global] [info] [git_source_control.cc:517] Computing merge base between ce5272224d76dcb1834d0c60daab1f7e29a9d482 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 04:05:58.728] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 04:05:59.225] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\lib\api.ts:HEAD] running linter (cache-key:8046d241b77fe4fa23e360ce33d76c2a)
-[2025-08-22 04:06:00.049] [global] [info] [git_source_control.cc:517] Computing merge base between ce5272224d76dcb1834d0c60daab1f7e29a9d482 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 04:06:00.050] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 04:06:01.807] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.bat // 3:The system cannot find the path specified.
-[2025-08-22 04:06:01.807] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3 // 3:The system cannot find the path specified.
-[2025-08-22 04:06:01.808] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.exe // 3:The system cannot find the path specified.
-[2025-08-22 04:06:01.808] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.bat // 3:The system cannot find the path specified.
-[2025-08-22 04:06:01.808] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3 // 3:The system cannot find the path specified.
-[2025-08-22 04:06:01.808] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.exe // 3:The system cannot find the path specified.
-[2025-08-22 04:06:01.808] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:The system cannot find the path specified.
-[2025-08-22 04:06:01.808] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:The system cannot find the path specified.
-[2025-08-22 04:06:01.809] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:The system cannot find the path specified.
-[2025-08-22 04:06:02.046] [global] [info] [cache.cc:1117] [monitor] [trufflehog:lint:frontend\lib\config.ts:HEAD] Linter ran in 16832ms
-[2025-08-22 04:06:10.370] [global] [info] [git_source_control.cc:517] Computing merge base between ce5272224d76dcb1834d0c60daab1f7e29a9d482 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 04:06:10.372] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 04:06:10.577] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\env.local.example:HEAD] running linter (cache-key:ccaa3b521a4c64ba4a4f3f5d6b972097)
-[2025-08-22 04:06:12.560] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.bat // 3:The system cannot find the path specified.
-[2025-08-22 04:06:12.560] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3 // 3:The system cannot find the path specified.
-[2025-08-22 04:06:12.560] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.exe // 3:The system cannot find the path specified.
-[2025-08-22 04:06:12.560] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.bat // 3:The system cannot find the path specified.
-[2025-08-22 04:06:12.560] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3 // 3:The system cannot find the path specified.
-[2025-08-22 04:06:12.561] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.exe // 3:The system cannot find the path specified.
-[2025-08-22 04:06:12.561] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:The system cannot find the path specified.
-[2025-08-22 04:06:12.561] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:The system cannot find the path specified.
-[2025-08-22 04:06:12.561] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:The system cannot find the path specified.
-[2025-08-22 04:06:12.691] [global] [info] [git_source_control.cc:517] Computing merge base between ce5272224d76dcb1834d0c60daab1f7e29a9d482 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 04:06:12.693] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 04:06:12.812] [global] [info] [cache.cc:1117] [monitor] [trufflehog:lint:frontend\lib\api.ts:HEAD] Linter ran in 13468ms
-[2025-08-22 04:06:15.619] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.bat // 3:The system cannot find the path specified.
-[2025-08-22 04:06:15.619] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3 // 3:The system cannot find the path specified.
-[2025-08-22 04:06:15.619] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.exe // 3:The system cannot find the path specified.
-[2025-08-22 04:06:15.620] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.bat // 3:The system cannot find the path specified.
-[2025-08-22 04:06:15.620] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3 // 3:The system cannot find the path specified.
-[2025-08-22 04:06:15.620] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.exe // 3:The system cannot find the path specified.
-[2025-08-22 04:06:15.620] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:The system cannot find the path specified.
-[2025-08-22 04:06:15.620] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:The system cannot find the path specified.
-[2025-08-22 04:06:15.620] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:The system cannot find the path specified.
-[2025-08-22 04:06:15.770] [global] [info] [cache.cc:1117] [monitor] [trufflehog:lint:frontend\env.local.example:HEAD] Linter ran in 5187ms
-[2025-08-22 04:06:58.746] [global] [info] [git_source_control.cc:517] Computing merge base between ce5272224d76dcb1834d0c60daab1f7e29a9d482 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 04:06:58.747] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
-[2025-08-22 04:06:59.045] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\app\courses\[id]\page.tsx:HEAD] running linter (cache-key:10141fdc7fcf7aaaf52fa10408a471fd)
+[2025-08-22 13:30:27.256] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.exe // 3:The system cannot find the path specified.
+[2025-08-22 13:30:27.283] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.bat // 3:The system cannot find the path specified.
+[2025-08-22 13:30:27.284] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3 // 3:The system cannot find the path specified.
+[2025-08-22 13:30:27.285] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.exe // 3:The system cannot find the path specified.
+[2025-08-22 13:30:27.285] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:The system cannot find the path specified.
+[2025-08-22 13:30:27.286] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:The system cannot find the path specified.
+[2025-08-22 13:30:27.286] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:The system cannot find the path specified.
+[2025-08-22 13:30:27.711] [global] [info] [cache.cc:1117] [monitor] [trufflehog:lint:frontend\app\checkout\[programId]\page.tsx... (3 files):HEAD] Linter ran in 14765ms
+[2025-08-22 13:30:47.254] [global] [info] [git_source_control.cc:517] Computing merge base between f4050688708127b167ab9efc2d4be0d552f13cb4 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 13:30:47.257] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 13:30:47.671] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\app\admin\finances\page.tsx:HEAD] running linter (cache-key:5a3f4d9bd159f16bb6c5d7010a108564)
+[2025-08-22 13:30:47.797] [global] [info] [git_source_control.cc:517] Computing merge base between f4050688708127b167ab9efc2d4be0d552f13cb4 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 13:30:47.801] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 13:30:51.186] [global] [info] [git_source_control.cc:517] Computing merge base between f4050688708127b167ab9efc2d4be0d552f13cb4 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 13:30:51.191] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 13:31:00.868] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.bat // 3:The system cannot find the path specified.
+[2025-08-22 13:31:00.869] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3 // 3:The system cannot find the path specified.
+[2025-08-22 13:31:00.869] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.exe // 3:The system cannot find the path specified.
+[2025-08-22 13:31:00.869] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.bat // 3:The system cannot find the path specified.
+[2025-08-22 13:31:00.869] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3 // 3:The system cannot find the path specified.
+[2025-08-22 13:31:00.870] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.exe // 3:The system cannot find the path specified.
+[2025-08-22 13:31:00.870] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:The system cannot find the path specified.
+[2025-08-22 13:31:00.870] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:The system cannot find the path specified.
+[2025-08-22 13:31:00.871] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:The system cannot find the path specified.
+[2025-08-22 13:31:01.332] [global] [info] [cache.cc:1117] [monitor] [trufflehog:lint:frontend\app\admin\finances\page.tsx:HEAD] Linter ran in 13648ms
+[2025-08-22 13:33:04.296] [global] [info] [git_source_control.cc:517] Computing merge base between f4050688708127b167ab9efc2d4be0d552f13cb4 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 13:33:04.298] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 13:33:04.633] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\app\admin\finances\page.tsx:HEAD] already cached, not running linter
+[2025-08-22 13:33:04.635] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\app\checkout\[programId]\page.tsx:HEAD] already cached, not running linter
+[2025-08-22 13:33:04.636] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\app\courses\[id]\page.tsx:HEAD] already cached, not running linter
+[2025-08-22 13:33:04.637] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\app\dashboard\page.tsx:HEAD] running linter (cache-key:e6d80f415a7d075e4345a97a9ee6d036)
+[2025-08-22 13:33:04.639] [global] [info] [cache.cc:934] [monitor] [trufflehog:lint:frontend\app\login\page.tsx:HEAD] already cached, not running linter
+[2025-08-22 13:33:07.461] [global] [info] [git_source_control.cc:517] Computing merge base between f4050688708127b167ab9efc2d4be0d552f13cb4 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 13:33:07.462] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 13:33:14.177] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.bat // 3:The system cannot find the path specified.
+[2025-08-22 13:33:14.178] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3 // 3:The system cannot find the path specified.
+[2025-08-22 13:33:14.178] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.exe // 3:The system cannot find the path specified.
+[2025-08-22 13:33:14.178] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.bat // 3:The system cannot find the path specified.
+[2025-08-22 13:33:14.178] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3 // 3:The system cannot find the path specified.
+[2025-08-22 13:33:14.178] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.exe // 3:The system cannot find the path specified.
+[2025-08-22 13:33:14.178] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:The system cannot find the path specified.
+[2025-08-22 13:33:14.178] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:The system cannot find the path specified.
+[2025-08-22 13:33:14.178] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:The system cannot find the path specified.
+[2025-08-22 13:33:14.438] [global] [info] [cache.cc:1117] [monitor] [trufflehog:lint:frontend\app\admin\finances\page.tsx... (5 files):HEAD] Linter ran in 9787ms
+[2025-08-22 13:33:34.984] [global] [info] [git_source_control.cc:517] Computing merge base between f4050688708127b167ab9efc2d4be0d552f13cb4 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 13:33:34.986] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 13:33:35.342] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\app\courses\page.tsx:HEAD] running linter (cache-key:ce3295d79b3ca14474d8e3c8617794e9)
+[2025-08-22 13:33:38.713] [global] [info] [git_source_control.cc:517] Computing merge base between f4050688708127b167ab9efc2d4be0d552f13cb4 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 13:33:38.715] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 13:33:43.754] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.bat // 3:The system cannot find the path specified.
+[2025-08-22 13:33:43.754] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3 // 3:The system cannot find the path specified.
+[2025-08-22 13:33:43.754] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.exe // 3:The system cannot find the path specified.
+[2025-08-22 13:33:43.754] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.bat // 3:The system cannot find the path specified.
+[2025-08-22 13:33:43.754] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3 // 3:The system cannot find the path specified.
+[2025-08-22 13:33:43.754] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.exe // 3:The system cannot find the path specified.
+[2025-08-22 13:33:43.754] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:The system cannot find the path specified.
+[2025-08-22 13:33:43.754] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:The system cannot find the path specified.
+[2025-08-22 13:33:43.754] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:The system cannot find the path specified.
+[2025-08-22 13:33:43.932] [global] [info] [cache.cc:1117] [monitor] [trufflehog:lint:frontend\app\courses\page.tsx:HEAD] Linter ran in 8580ms
+[2025-08-22 13:34:34.166] [global] [info] [git_source_control.cc:517] Computing merge base between f4050688708127b167ab9efc2d4be0d552f13cb4 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 13:34:34.168] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 13:34:34.433] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\app\admin\page.tsx:HEAD] running linter (cache-key:d279a0a752ae46751d7adea47750b51f)
+[2025-08-22 13:34:37.081] [global] [info] [git_source_control.cc:517] Computing merge base between f4050688708127b167ab9efc2d4be0d552f13cb4 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 13:34:37.082] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 13:34:47.137] [global] [info] [git_source_control.cc:517] Computing merge base between f4050688708127b167ab9efc2d4be0d552f13cb4 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 13:34:47.139] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 13:34:47.408] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:frontend\components\Header.jsx:HEAD] running linter (cache-key:654c50814e3afcd738ed18abd9fba940)
+[2025-08-22 13:34:50.637] [global] [info] [git_source_control.cc:517] Computing merge base between f4050688708127b167ab9efc2d4be0d552f13cb4 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 13:34:50.642] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 13:34:53.003] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.bat // 3:The system cannot find the path specified.
+[2025-08-22 13:34:53.003] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3 // 3:The system cannot find the path specified.
+[2025-08-22 13:34:53.003] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.exe // 3:The system cannot find the path specified.
+[2025-08-22 13:34:53.004] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.bat // 3:The system cannot find the path specified.
+[2025-08-22 13:34:53.004] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3 // 3:The system cannot find the path specified.
+[2025-08-22 13:34:53.004] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.exe // 3:The system cannot find the path specified.
+[2025-08-22 13:34:53.004] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:The system cannot find the path specified.
+[2025-08-22 13:34:53.004] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:The system cannot find the path specified.
+[2025-08-22 13:34:53.004] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:The system cannot find the path specified.
+[2025-08-22 13:34:53.638] [global] [info] [cache.cc:1117] [monitor] [trufflehog:lint:frontend\app\admin\page.tsx:HEAD] Linter ran in 19197ms
+[2025-08-22 13:34:59.841] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.bat // 3:The system cannot find the path specified.
+[2025-08-22 13:34:59.841] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3 // 3:The system cannot find the path specified.
+[2025-08-22 13:34:59.841] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/bin\python3.exe // 3:The system cannot find the path specified.
+[2025-08-22 13:34:59.841] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.bat // 3:The system cannot find the path specified.
+[2025-08-22 13:34:59.842] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3 // 3:The system cannot find the path specified.
+[2025-08-22 13:34:59.842] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\trufflehog\3.90.5-2177eb721238c2942ac39a262ccc90eb/Scripts\python3.exe // 3:The system cannot find the path specified.
+[2025-08-22 13:34:59.842] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.bat // 3:The system cannot find the path specified.
+[2025-08-22 13:34:59.842] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3 // 3:The system cannot find the path specified.
+[2025-08-22 13:34:59.842] [global] [warning] [resolve_binary.cc:46] is_regular_file check failed for for C:\Users\SURFACE\AppData\Local\trunk\tools\python\3.10.8-2211cb108575de2785d77a26a1f8d070/bin\python3.exe // 3:The system cannot find the path specified.
+[2025-08-22 13:35:00.072] [global] [info] [cache.cc:1117] [monitor] [trufflehog:lint:frontend\components\Header.jsx:HEAD] Linter ran in 12620ms
+[2025-08-22 13:35:28.604] [global] [info] [git_source_control.cc:517] Computing merge base between f4050688708127b167ab9efc2d4be0d552f13cb4 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 13:35:28.605] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 13:35:28.853] [global] [info] [cache.cc:974] [monitor] [trufflehog:lint:test-payment-integration.ps1:HEAD] running linter (cache-key:80a45416a939b19ea45bbd31d380946d)
+[2025-08-22 13:35:29.317] [global] [info] [git_source_control.cc:517] Computing merge base between f4050688708127b167ab9efc2d4be0d552f13cb4 and 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 13:35:29.319] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 2a97ce394b4c80989788ab8589d497ca3c8b0b71
+[2025-08-22 13:35:29.541] [global] [info] [cache.cc:959] [monitor] [trufflehog:lint:test-payment-integration.ps1:HEAD] linting in progress, waiting (cache-key:80a45416a939b19ea45bbd31d380946d)

@@ -10,10 +10,11 @@ export default function Header() {
           <Image src="/logo-cbtc.svg" alt="CBTC Logo" width={180} height={60} priority />
         </Link>
         <nav className="ml-auto flex items-center gap-6">
+          <Link href="/courses">Formations</Link>
+          <Link href="/dashboard">Tableau de Bord</Link>
+          <Link href="/admin">Admin</Link>
           <Link href="/register">Inscription</Link>
           <Link href="/login">Connexion</Link>
-          <Link href="/courses">Formations</Link>
-          <Link href="/admin">Admin</Link>
         </nav>
       </div>
     </header>

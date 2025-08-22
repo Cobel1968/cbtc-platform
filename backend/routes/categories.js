@@ -1,4 +1,4 @@
-Copyimport express from 'express';
+import express from 'express';
 import {
   getAllCategories,
   getCategoryById,

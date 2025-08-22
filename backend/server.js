@@ -8,6 +8,9 @@ import compression from 'compression';
 import cookieParser from 'cookie-parser';
 import rateLimit from 'express-rate-limit';
 
+// Import existing JavaScript routes
+import categoryRoutes from './routes/categories.js';
+
 const app = express();
 const PORT = Number(process.env.PORT) || 5000;
 const NODE_ENV = process.env.NODE_ENV || 'development';
@@ -88,6 +91,43 @@ app.get('/', (_req, res) => {
     entrepreneur: 'Abel Coulibaly',
     vision: "L'excellence entrepreneuriale à portée de tous"
   });
+});
+
+// Mount API routes
+app.use('/api/categories', categoryRoutes);
+
+// Simple auth endpoints for testing
+app.post('/api/auth/login', (req, res) => {
+  const { email, password } = req.body;
+  
+  // Simple test authentication
+  if (email === 'test@cbtc.com' && password === 'testpass123') {
+    const token = 'demo-token-' + Date.now();
+    res.json({
+      message: 'Connexion réussie',
+      user: { id: 1, email, name: 'Test User CBTC', role: 'USER' },
+      token
+    });
+  } else {
+    res.status(401).json({ error: 'Email ou mot de passe incorrect' });
+  }
+});
+
+app.get('/api/auth/me', (req, res) => {
+  const authHeader = req.headers['authorization'];
+  const token = authHeader?.split(' ')[1];
+  
+  if (!token || !token.startsWith('demo-token-')) {
+    return res.status(401).json({ error: 'Token requis' });
+  }
+  
+  res.json({
+    user: { id: 1, email: 'test@cbtc.com', name: 'Test User CBTC', role: 'USER' }
+  });
+});
+
+app.post('/api/auth/logout', (req, res) => {
+  res.json({ message: 'Déconnexion réussie' });
 });
 
 // 404

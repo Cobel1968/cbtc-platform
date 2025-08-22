@@ -2,10 +2,10 @@
   "name": "abel-categories-api",
   "version": "1.0.0",
   "description": "API de gestion des catégories par Abel Coulibaly - Entrepreneur et Lecteur en gestion d'entreprise",
-  "main": "server.js",
+  "main": "integration-server.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
+    "start": "node integration-server.js",
     "dev": "node --watch server.js",
     "build": "npx prisma generate && npx prisma db push",
     "deploy": "npx prisma migrate deploy && npx prisma generate",
